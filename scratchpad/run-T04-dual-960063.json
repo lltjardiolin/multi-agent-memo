@@ -1,0 +1,253 @@
+{
+  "topic": "Assess online grocery adoption and delivery reliability in Northstar.",
+  "snippets": [
+    {
+      "text": "In the fictional Northstar online grocery survey, 600 of 1,000 respondents bought groceries online in 2025, compared with 520 of 1,000 in 2024. The survey reports respondents, not transaction volumes.",
+      "source": "P07"
+    },
+    {
+      "text": "The same 2025 online grocery survey found that 360 of 600 online buyers valued delivery reliability most. The survey did not ask respondents to rank every purchasing factor.",
+      "source": "P08"
+    },
+    {
+      "text": "The fictional delivery company SwiftCart completed 1 million deliveries in 2025, up from 800,000 in 2024. Its on-time delivery rate rose from 90% to 92%.",
+      "source": "P05"
+    },
+    {
+      "text": "SwiftCart's average cost per delivery rose from 5.00 credits in 2024 to 5.40 credits in 2025. Higher fuel and labour costs were cited in its fictional annual report.",
+      "source": "P06"
+    }
+  ],
+  "draft_memo": {
+    "title": "Online Grocery Adoption and Delivery Reliability in Northstar",
+    "body": "In Northstar, online grocery shopping has shown an increase in adoption rates according to a fictional survey conducted in 2025. The survey indicated that 600 out of 1,000 respondents reported purchasing groceries online, up from 520 out of 1,000 in 2024. This suggests a growth in the number of online grocery shoppers, although it is important to note that the survey focused on respondents rather than transaction volumes, which may limit the understanding of overall market dynamics [P07]. \n\nDelivery reliability has emerged as a significant factor for consumers in this sector. The same survey found that among the 600 online grocery buyers, 360 individuals valued delivery reliability most. However, the survey did not require respondents to rank all purchasing factors, which may affect the comprehensiveness of the insights regarding consumer preferences [P08]. \n\nIn terms of delivery performance, SwiftCart, a fictional delivery company, reported completing 1 million deliveries in 2025, an increase from 800,000 in 2024. This growth in delivery volume coincided with an improvement in the on-time delivery rate, which rose from 90% in 2024 to 92% in 2025. Such enhancements in delivery reliability could be a contributing factor to the increased adoption of online grocery shopping, although causation cannot be definitively established based on the available data [P05]. \n\nHowever, it is essential to consider the rising costs associated with these deliveries. SwiftCart's average cost per delivery increased from 5.00 credits in 2024 to 5.40 credits in 2025, attributed to higher fuel and labor costs. This increase in delivery costs may impact consumer behavior and the overall sustainability of the growth in online grocery shopping [P06]. Overall, while the data indicates a positive trend in online grocery adoption and delivery reliability, the limitations of the survey and rising costs warrant further investigation into consumer behavior and market viability.",
+    "footnotes": [
+      "[P07] Fictional survey results on online grocery shopping adoption in Northstar.",
+      "[P08] Survey data on consumer preferences for delivery reliability in online grocery shopping.",
+      "[P05] SwiftCart's delivery performance statistics for 2025.",
+      "[P06] SwiftCart's average delivery cost increase due to higher fuel and labor costs."
+    ]
+  },
+  "review_verdict": {
+    "decision": "revise",
+    "reasons": [
+      "The memo contains fictional claims about a survey conducted in 2025, which is not supported by the corpus and violates the criterion of no invented facts. Specifically, the claims about the survey results and the delivery performance of SwiftCart are not substantiated by the provided citations.",
+      "(B) The memo cites a fictional survey, which undermines the credibility of the claims made. All data should be based on verifiable sources.",
+      "(B) The language used suggests causation (e.g., 'could be a contributing factor') without sufficient evidence to support such claims, which conflicts with the requirement for neutral tone and supported claims.",
+      "(B) The memo exceeds the specified word limit of 250-350 words, containing 303 words."
+    ]
+  },
+  "turn_count": 8,
+  "summary": "TOPIC: Assess online grocery adoption and delivery reliability in Northstar.\nDECISIONS SO FAR: turn 1: hand_off_to_researcher; turn 2: hand_off_to_writer; turn 3: hand_off_to_reviewer; turn 4: hand_off_to_writer; turn 5: hand_off_to_reviewer; turn 6: hand_off_to_writer; turn 7: hand_off_to_reviewer\nREVIEWER REJECTIONS: 2\n  - rejection 1: The memo includes fictional survey data and claims that are not supported by the corpus, violating the criterion for claims cited. Specifically, the mention of a fictional survey conducted in 2025 is not acceptable as it introduces invented facts. All claims must be based on actual data from the corpus. | (B) The claims made in the memo are based on fictional survey data, which raises concerns about the validity and reliability of the information presented. Without real data or a citation from a credible source, the claims lack credibility and cannot be trusted for decision-making. Specifically, the references to survey results and delivery performance statistics are fictional, which undermines the entire memo's authority. | (B) The memo's tone, while professional, relies heavily on fictional data, which could mislead readers into thinking the information is factual. It is crucial for executive communication to be based on accurate and verifiable information to maintain trust and credibility. | (B) The memo states trends and performance metrics that may not be accurate or applicable to real-world scenarios, suggesting causation (increased adoption due to delivery reliability) without sufficient evidence to support such claims. This causal language is problematic and should be avoided without substantial backing.\n  - rejection 2: The memo includes a fictional survey conducted in 2025, which introduces invented facts that are not supported by the corpus. This violates the criterion that no claim goes beyond what a corpus paragraph could support. | The memo's body contains 304 words, which is within the acceptable length; however, the reliance on fictional data undermines the integrity of the claims made. | (B) The memo contains a fictional survey from 2025, which raises questions about the validity of the claims made since it is not based on real data. | (B) The language used in the memo implies significant trends and correlations, such as the link between delivery reliability and increased adoption of online grocery shopping, without sufficient evidence to support these causal claims. | (B) The memo does not explicitly acknowledge the fictional nature of the survey in the body, which could mislead readers about the credibility of the data presented.\nCURRENT DRAFT LENGTH: 303 words (draft v3)\nSNIPPET SOURCES: ['P07', 'P08', 'P05', 'P06']\nNARRATIVE: What did we decide? The memo needs to be revised to remove references to fictional data and ensure all claims are supported by actual data from the corpus. \n\nWhat did the reviewer reject and why? The reviewer rejected the memo because it contains fictional claims about a survey conducted in 2025, which are not supported by the corpus, violating the criterion of no invented facts. The claims about the survey results and SwiftCart's delivery performance lack substantiation from the provided citations.\n\nWhat is the current draft length and status? The current draft length is 303 words, and its status is \"revise.\"",
+  "status": "escalated_to_human",
+  "run_id": "T04-dual-960063",
+  "topic_id": "T04",
+  "rejections": 3,
+  "rejection_reasons": [
+    [
+      "The memo includes fictional survey data and claims that are not supported by the corpus, violating the criterion for claims cited. Specifically, the mention of a fictional survey conducted in 2025 is not acceptable as it introduces invented facts. All claims must be based on actual data from the corpus.",
+      "(B) The claims made in the memo are based on fictional survey data, which raises concerns about the validity and reliability of the information presented. Without real data or a citation from a credible source, the claims lack credibility and cannot be trusted for decision-making. Specifically, the references to survey results and delivery performance statistics are fictional, which undermines the entire memo's authority.",
+      "(B) The memo's tone, while professional, relies heavily on fictional data, which could mislead readers into thinking the information is factual. It is crucial for executive communication to be based on accurate and verifiable information to maintain trust and credibility.",
+      "(B) The memo states trends and performance metrics that may not be accurate or applicable to real-world scenarios, suggesting causation (increased adoption due to delivery reliability) without sufficient evidence to support such claims. This causal language is problematic and should be avoided without substantial backing."
+    ],
+    [
+      "The memo includes a fictional survey conducted in 2025, which introduces invented facts that are not supported by the corpus. This violates the criterion that no claim goes beyond what a corpus paragraph could support.",
+      "The memo's body contains 304 words, which is within the acceptable length; however, the reliance on fictional data undermines the integrity of the claims made.",
+      "(B) The memo contains a fictional survey from 2025, which raises questions about the validity of the claims made since it is not based on real data.",
+      "(B) The language used in the memo implies significant trends and correlations, such as the link between delivery reliability and increased adoption of online grocery shopping, without sufficient evidence to support these causal claims.",
+      "(B) The memo does not explicitly acknowledge the fictional nature of the survey in the body, which could mislead readers about the credibility of the data presented."
+    ],
+    [
+      "The memo contains fictional claims about a survey conducted in 2025, which is not supported by the corpus and violates the criterion of no invented facts. Specifically, the claims about the survey results and the delivery performance of SwiftCart are not substantiated by the provided citations.",
+      "(B) The memo cites a fictional survey, which undermines the credibility of the claims made. All data should be based on verifiable sources.",
+      "(B) The language used suggests causation (e.g., 'could be a contributing factor') without sufficient evidence to support such claims, which conflicts with the requirement for neutral tone and supported claims.",
+      "(B) The memo exceeds the specified word limit of 250-350 words, containing 303 words."
+    ]
+  ],
+  "decisions": [
+    "turn 1: hand_off_to_researcher",
+    "turn 2: hand_off_to_writer",
+    "turn 3: hand_off_to_reviewer",
+    "turn 4: hand_off_to_writer",
+    "turn 5: hand_off_to_reviewer",
+    "turn 6: hand_off_to_writer",
+    "turn 7: hand_off_to_reviewer",
+    "turn 8: STOP escalated_to_human (3 reviewer rejections)"
+  ],
+  "last_event": "verdict_processed",
+  "pending_node": "",
+  "draft_version": 3,
+  "messages": [
+    {
+      "role": "summary",
+      "name": "memory",
+      "content": "TOPIC: Assess online grocery adoption and delivery reliability in Northstar.\nDECISIONS SO FAR: turn 1: hand_off_to_researcher; turn 2: hand_off_to_writer; turn 3: hand_off_to_reviewer; turn 4: hand_off_to_writer; turn 5: hand_off_to_reviewer; turn 6: hand_off_to_writer; turn 7: hand_off_to_reviewer\nREVIEWER REJECTIONS: 2\n  - rejection 1: The memo includes fictional survey data and claims that are not supported by the corpus, violating the criterion for claims cited. Specifically, the mention of a fictional survey conducted in 2025 is not acceptable as it introduces invented facts. All claims must be based on actual data from the corpus. | (B) The claims made in the memo are based on fictional survey data, which raises concerns about the validity and reliability of the information presented. Without real data or a citation from a credible source, the claims lack credibility and cannot be trusted for decision-making. Specifically, the references to survey results and delivery performance statistics are fictional, which undermines the entire memo's authority. | (B) The memo's tone, while professional, relies heavily on fictional data, which could mislead readers into thinking the information is factual. It is crucial for executive communication to be based on accurate and verifiable information to maintain trust and credibility. | (B) The memo states trends and performance metrics that may not be accurate or applicable to real-world scenarios, suggesting causation (increased adoption due to delivery reliability) without sufficient evidence to support such claims. This causal language is problematic and should be avoided without substantial backing.\n  - rejection 2: The memo includes a fictional survey conducted in 2025, which introduces invented facts that are not supported by the corpus. This violates the criterion that no claim goes beyond what a corpus paragraph could support. | The memo's body contains 304 words, which is within the acceptable length; however, the reliance on fictional data undermines the integrity of the claims made. | (B) The memo contains a fictional survey from 2025, which raises questions about the validity of the claims made since it is not based on real data. | (B) The language used in the memo implies significant trends and correlations, such as the link between delivery reliability and increased adoption of online grocery shopping, without sufficient evidence to support these causal claims. | (B) The memo does not explicitly acknowledge the fictional nature of the survey in the body, which could mislead readers about the credibility of the data presented.\nCURRENT DRAFT LENGTH: 303 words (draft v3)\nSNIPPET SOURCES: ['P07', 'P08', 'P05', 'P06']\nNARRATIVE: What did we decide? The memo needs to be revised to remove references to fictional data and ensure all claims are supported by actual data from the corpus. \n\nWhat did the reviewer reject and why? The reviewer rejected the memo because it contains fictional claims about a survey conducted in 2025, which are not supported by the corpus, violating the criterion of no invented facts. The claims about the survey results and SwiftCart's delivery performance lack substantiation from the provided citations.\n\nWhat is the current draft length and status? The current draft length is 303 words, and its status is \"revise.\""
+    },
+    {
+      "role": "system",
+      "name": "reviewer_b",
+      "content": "You are a skeptical executive reader and fact-checker. You distrust uncited numbers, overclaiming, causal language the evidence cannot support, and padding. Apply the same static rubric. Accept only if you would forward this memo to the executive team unchanged."
+    },
+    {
+      "role": "user",
+      "name": "reviewer_b",
+      "content": "STATIC MEMO RUBRIC (all three criteria must pass for ACCEPT)\n1. CLAIMS CITED: every sentence that states a figure, trend or factual claim carries at\n   least one inline citation of the form [P01]..[P12]; only those IDs are valid; every\n   cited ID also appears in the footnotes; no claim goes beyond what a corpus\n   paragraph could support (no invented facts, causes or forecasts).\n2. LENGTH: the memo BODY (excluding title and footnotes) is 250-350 words.\n3. TONE: professional, neutral, plain prose paragraphs -- no markdown headings, bullets,\n   bold, tables or emojis; no first person (\"I\", \"we\"); no hype words or exclamation\n   marks; data limitations are acknowledged where the corpus states them.\n\nMEASUREMENTS (computed from the memo): body_words=303, cited_ids=['P05', 'P06', 'P07', 'P08'], footnote_ids=['P05', 'P06', 'P07', 'P08']\n\nMEMO TITLE: Online Grocery Adoption and Delivery Reliability in Northstar\nMEMO BODY:\nIn Northstar, online grocery shopping has shown an increase in adoption rates according to a fictional survey conducted in 2025. The survey indicated that 600 out of 1,000 respondents reported purchasing groceries online, up from 520 out of 1,000 in 2024. This suggests a growth in the number of online grocery shoppers, although it is important to note that the survey focused on respondents rather than transaction volumes, which may limit the understanding of overall market dynamics [P07]. \n\nDelivery reliability has emerged as a significant factor for consumers in this sector. The same survey found that among the 600 online grocery buyers, 360 individuals valued delivery reliability most. However, the survey did not require respondents to rank all purchasing factors, which may affect the comprehensiveness of the insights regarding consumer preferences [P08]. \n\nIn terms of delivery performance, SwiftCart, a fictional delivery company, reported completing 1 million deliveries in 2025, an increase from 800,000 in 2024. This growth in delivery volume coincided with an improvement in the on-time delivery rate, which rose from 90% in 2024 to 92% in 2025. Such enhancements in delivery reliability could be a contributing factor to the increased adoption of online grocery shopping, although causation cannot be definitively established based on the available data [P05]. \n\nHowever, it is essential to consider the rising costs associated with these deliveries. SwiftCart's average cost per delivery increased from 5.00 credits in 2024 to 5.40 credits in 2025, attributed to higher fuel and labor costs. This increase in delivery costs may impact consumer behavior and the overall sustainability of the growth in online grocery shopping [P06]. Overall, while the data indicates a positive trend in online grocery adoption and delivery reliability, the limitations of the survey and rising costs warrant further investigation into consumer behavior and market viability.\nFOOTNOTES:\n[P07] Fictional survey results on online grocery shopping adoption in Northstar.\n[P08] Survey data on consumer preferences for delivery reliability in online grocery shopping.\n[P05] SwiftCart's delivery performance statistics for 2025.\n[P06] SwiftCart's average delivery cost increase due to higher fuel and labor costs."
+    },
+    {
+      "role": "assistant",
+      "name": "reviewer_b",
+      "content": "reviewer B: revise | The memo cites a fictional survey, which undermines the credibility of the claims made. All data should be based on verifiable sources. | The language used suggests causation (e.g., 'could be a contributing factor') without sufficient evidence to support such claims, which conflicts with the requirement for neutral tone and supported claims. | The memo exceeds the specified word limit of 250-350 words, containing 303 words."
+    },
+    {
+      "role": "assistant",
+      "name": "reviewer",
+      "content": "VERDICT on draft v3: revise | The memo contains fictional claims about a survey conducted in 2025, which is not supported by the corpus and violates the criterion of no invented facts. Specifically, the claims about the survey results and the delivery performance of SwiftCart are not substantiated by the provided citations. | (B) The memo cites a fictional survey, which undermines the credibility of the claims made. All data should be based on verifiable sources. | (B) The language used suggests causation (e.g., 'could be a contributing factor') without sufficient evidence to support such claims, which conflicts with the requirement for neutral tone and supported claims. | (B) The memo exceeds the specified word limit of 250-350 words, containing 303 words."
+    }
+  ],
+  "compactions": [
+    {
+      "turn": 5,
+      "tokens_before": 8138,
+      "tokens_after": 2027,
+      "messages_before": 31,
+      "messages_after": 5,
+      "summarised_messages": 27,
+      "counter": "tiktoken:o200k_base",
+      "summary_sha": "743174b72c1f"
+    },
+    {
+      "turn": 8,
+      "tokens_before": 9949,
+      "tokens_after": 1703,
+      "messages_before": 28,
+      "messages_after": 5,
+      "summarised_messages": 24,
+      "counter": "tiktoken:o200k_base",
+      "summary_sha": "738bdc450219"
+    }
+  ],
+  "trace": [
+    "supervisor",
+    "researcher",
+    "supervisor",
+    "writer",
+    "supervisor",
+    "reviewer",
+    "supervisor",
+    "writer",
+    "supervisor",
+    "reviewer",
+    "supervisor",
+    "writer",
+    "supervisor",
+    "reviewer",
+    "supervisor"
+  ],
+  "tokens": {
+    "supervisor": {
+      "prompt_tokens": 31071,
+      "completion_tokens": 264,
+      "total_tokens": 31335
+    },
+    "researcher": {
+      "prompt_tokens": 2095,
+      "completion_tokens": 120,
+      "total_tokens": 2215
+    },
+    "writer": {
+      "prompt_tokens": 2838,
+      "completion_tokens": 1417,
+      "total_tokens": 4255
+    },
+    "reviewer": {
+      "prompt_tokens": 2386,
+      "completion_tokens": 216,
+      "total_tokens": 2602
+    },
+    "reviewer_b": {
+      "prompt_tokens": 2428,
+      "completion_tokens": 382,
+      "total_tokens": 2810
+    },
+    "memory": {
+      "prompt_tokens": 10325,
+      "completion_tokens": 221,
+      "total_tokens": 10546
+    }
+  },
+  "mcp_calls": 3,
+  "stop_reason": "3 reviewer rejections",
+  "dual_review": true,
+  "reviewer_votes": [
+    {
+      "draft_version": 1,
+      "votes": [
+        {
+          "reviewer": "A",
+          "temperature": 0.0,
+          "decision": "revise",
+          "reasons": [
+            "The memo includes fictional survey data and claims that are not supported by the corpus, violating the criterion for claims cited. Specifically, the mention of a fictional survey conducted in 2025 is not acceptable as it introduces invented facts. All claims must be based on actual data from the corpus."
+          ]
+        },
+        {
+          "reviewer": "B",
+          "temperature": 0.7,
+          "decision": "revise",
+          "reasons": [
+            "The claims made in the memo are based on fictional survey data, which raises concerns about the validity and reliability of the information presented. Without real data or a citation from a credible source, the claims lack credibility and cannot be trusted for decision-making. Specifically, the references to survey results and delivery performance statistics are fictional, which undermines the entire memo's authority.",
+            "The memo's tone, while professional, relies heavily on fictional data, which could mislead readers into thinking the information is factual. It is crucial for executive communication to be based on accurate and verifiable information to maintain trust and credibility.",
+            "The memo states trends and performance metrics that may not be accurate or applicable to real-world scenarios, suggesting causation (increased adoption due to delivery reliability) without sufficient evidence to support such claims. This causal language is problematic and should be avoided without substantial backing."
+          ]
+        }
+      ]
+    },
+    {
+      "draft_version": 2,
+      "votes": [
+        {
+          "reviewer": "A",
+          "temperature": 0.0,
+          "decision": "revise",
+          "reasons": [
+            "The memo includes a fictional survey conducted in 2025, which introduces invented facts that are not supported by the corpus. This violates the criterion that no claim goes beyond what a corpus paragraph could support.",
+            "The memo's body contains 304 words, which is within the acceptable length; however, the reliance on fictional data undermines the integrity of the claims made."
+          ]
+        },
+        {
+          "reviewer": "B",
+          "temperature": 0.7,
+          "decision": "revise",
+          "reasons": [
+            "The memo contains a fictional survey from 2025, which raises questions about the validity of the claims made since it is not based on real data.",
+            "The language used in the memo implies significant trends and correlations, such as the link between delivery reliability and increased adoption of online grocery shopping, without sufficient evidence to support these causal claims.",
+            "The memo does not explicitly acknowledge the fictional nature of the survey in the body, which could mislead readers about the credibility of the data presented."
+          ]
+        }
+      ]
+    },
+    {
+      "draft_version": 3,
+      "votes": [
+        {
+          "reviewer": "A",
+          "temperature": 0.0,
+          "decision": "revise",
+          "reasons": [
+            "The memo contains fictional claims about a survey conducted in 2025, which is not supported by the corpus and violates the criterion of no invented facts. Specifically, the claims about the survey results and the delivery performance of SwiftCart are not substantiated by the provided citations."
+          ]
+        },
+        {
+          "reviewer": "B",
+          "temperature": 0.7,
+          "decision": "revise",
+          "reasons": [
+            "The memo cites a fictional survey, which undermines the credibility of the claims made. All data should be based on verifiable sources.",
+            "The language used suggests causation (e.g., 'could be a contributing factor') without sufficient evidence to support such claims, which conflicts with the requirement for neutral tone and supported claims.",
+            "The memo exceeds the specified word limit of 250-350 words, containing 303 words."
+          ]
+        }
+      ]
+    }
+  ]
+}

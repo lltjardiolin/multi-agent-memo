@@ -1,0 +1,19 @@
+{
+  "all_team_topics_finished_without_exception": true,
+  "mcp_invoked_every_run": true,
+  "longest_topic": "T03",
+  "compaction_on_longest": 1,
+  "compactions_total": 11,
+  "error_amplification": {
+    "team": {
+      "value": 0.8,
+      "defined": true,
+      "goal_met": true
+    },
+    "team_dual": {
+      "value": 0.8,
+      "defined": true,
+      "goal_met": true
+    }
+  }
+}

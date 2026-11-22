@@ -1,0 +1,1824 @@
+{
+  "generated": "2026-11-22 15:27:11",
+  "settings": {
+    "MODEL_BASE_URL": "https://api.openai.com/v1",
+    "MODEL_NAME": "gpt-4o-mini",
+    "temperature": 0.0,
+    "seed": 18
+  },
+  "failure_definition": "error OR status != completed OR static rubric fail",
+  "note": "Baseline sees the whole corpus in one call; the team retrieves excerpts via MCP. Deterministic rubric applied identically; manual_rubric_pass left for optional human review.",
+  "baseline": [
+    {
+      "topic_id": "T01",
+      "memo": "**Memo: Assessment of Rooftop Solar Installation Trends in Northstar**\n\nTo: [Recipient Name]  \nFrom: [Your Name]  \nDate: [Current Date]  \nSubject: Trends in Rooftop Solar Installations in Northstar\n\nThis memo provides an overview of the trends in rooftop solar installations in the Northstar region, based on data from 2024 and 2025. \n\nIn 2025, Northstar installed a total of 120 megawatts (MW) of rooftop solar capacity, reflecting a growth from 100 MW in 2024. This increase indicates a positive trend in the adoption of solar technology within the region, suggesting a growing recognition of renewable energy sources among residents and businesses alike [P01]. \n\nBreaking down the figures, residential rooftop solar installations rose significantly from 40 MW in 2024 to 55 MW in 2025. This 37.5% increase highlights a strong consumer interest in residential solar solutions. Conversely, commercial installations saw a more modest increase from 60 MW to 65 MW during the same period, indicating that while commercial entities are adopting solar technology, the growth rate is slower compared to residential installations [P02]. \n\nAdditionally, the market for home battery systems, which complement rooftop solar installations, also experienced growth. The fictional company Solara reported sales of 4,000 home battery units in 2025, up from 3,000 in 2024. This trend suggests that consumers are increasingly investing in energy storage solutions to maximize the benefits of their solar systems [P03]. \n\nIt is important to note that the data presented here is fictional and may not represent the complete market landscape. The figures for installations and sales are based on specific sources and do not account for all market participants or external factors that could influence these trends. \n\nIn conclusion, the data indicates a robust growth trajectory for rooftop solar installations in Northstar, particularly in the residential sector. Continued monitoring of these trends will be essential for understanding the evolving energy landscape in the region.\n\n---\n\n**Footnotes**  \n[P01] Source ID for total rooftop solar capacity.  \n[P02] Source ID for breakdown of residential and commercial installations.  \n[P03] Source ID for home battery sales data.",
+      "total_tokens": 1087,
+      "turns": 1,
+      "rejections": 0,
+      "mcp_calls": 0,
+      "status": "completed",
+      "checks": {
+        "word_count": 337,
+        "length_pass": true,
+        "citation_present": true,
+        "invalid_citations": [],
+        "automatic_checks_pass": true,
+        "rubric_pass": false
+      },
+      "rubric": {
+        "body_words": 284,
+        "distinct_citations": [
+          "P01",
+          "P02",
+          "P03"
+        ],
+        "claims_cited": false,
+        "length_ok": true,
+        "tone_ok": true,
+        "rubric_pass": false,
+        "reasons": [
+          "5 sentence(s) with figures lack a citation, e.g. 'This memo provides an overview of the trends in rooftop solar installations in the Northst'"
+        ],
+        "parsed_title": "Trends in Rooftop Solar Installations in Northstar",
+        "uncited_sentences": [
+          "This memo provides an overview of the trends in rooftop solar installations in the Northstar region, based on data from 2024 and 2025.",
+          "In 2025, Northstar installed a total of 120 megawatts (MW) of rooftop solar capacity, reflecting a growth from 100 MW in 2024.",
+          "Breaking down the figures, residential rooftop solar installations rose significantly from 40 MW in 2024 to 55 MW in 2025.",
+          "This 37.5% increase highlights a strong consumer interest in residential solar solutions.",
+          "The fictional company Solara reported sales of 4,000 home battery units in 2025, up from 3,000 in 2024."
+        ]
+      },
+      "seconds": 7.5,
+      "failed": true,
+      "manual_rubric_pass": null
+    },
+    {
+      "topic_id": "T02",
+      "memo": "To: [Recipient Name]  \nFrom: [Your Name]  \nDate: [Current Date]  \nSubject: Assessment of Solara Home Battery Sales and Pricing Trends  \n\nThis memo provides an overview of the sales and pricing trends for Solara home batteries in the fictional Northstar region, based on available data for the years 2024 and 2025.\n\nIn 2025, Solara sold 4,000 home battery units, reflecting a notable increase from 3,000 units sold in 2024. This growth indicates a positive trend in consumer adoption of home battery technology, although it is important to note that these figures do not represent the entire market for home batteries in Northstar [P03]. \n\nPricing trends for Solara's home batteries also show a decrease in the average installed price, which fell from 8,000 credits in 2024 to 7,600 credits in 2025. This reduction in price may have contributed to the increase in sales, making the product more accessible to a broader range of consumers [P04]. However, it is essential to consider that these prices exclude maintenance costs, which could impact the overall affordability of the product for potential buyers.\n\nThe context of the broader solar market in Northstar may also influence these trends. In 2025, residential rooftop solar installations increased from 40 megawatts to 55 megawatts, suggesting a growing interest in renewable energy solutions among homeowners [P02]. This trend could correlate with the rising sales of home batteries, as consumers seek to enhance their energy independence and efficiency.\n\nIn conclusion, Solara's home battery sales have shown a promising upward trajectory alongside a decrease in pricing, which may facilitate further market penetration. However, the data is limited to Solara's performance and does not encompass the entire market landscape, which could provide additional insights into consumer behavior and competitive dynamics.\n\n**Footnotes**  \n[P01] Northstar region solar installations data.  \n[P02] Residential and commercial solar installation figures.  \n[P03] Solara home battery sales figures.  \n[P04] Pricing trends for Solara home batteries.",
+      "total_tokens": 1061,
+      "turns": 1,
+      "rejections": 0,
+      "mcp_calls": 0,
+      "status": "completed",
+      "checks": {
+        "word_count": 316,
+        "length_pass": true,
+        "citation_present": true,
+        "invalid_citations": [],
+        "automatic_checks_pass": true,
+        "rubric_pass": false
+      },
+      "rubric": {
+        "body_words": 270,
+        "distinct_citations": [
+          "P02",
+          "P03",
+          "P04"
+        ],
+        "claims_cited": false,
+        "length_ok": true,
+        "tone_ok": true,
+        "rubric_pass": false,
+        "reasons": [
+          "3 sentence(s) with figures lack a citation, e.g. 'This memo provides an overview of the sales and pricing trends for Solara home batteries i'"
+        ],
+        "parsed_title": "Assessment of Solara Home Battery Sales and Pricing Trends",
+        "uncited_sentences": [
+          "This memo provides an overview of the sales and pricing trends for Solara home batteries in the fictional Northstar region, based on available data for the years 2024 and 2025.",
+          "In 2025, Solara sold 4,000 home battery units, reflecting a notable increase from 3,000 units sold in 2024.",
+          "Pricing trends for Solara's home batteries also show a decrease in the average installed price, which fell from 8,000 credits in 2024 to 7,600 credits in 2025."
+        ]
+      },
+      "seconds": 5.5,
+      "failed": true,
+      "manual_rubric_pass": null
+    },
+    {
+      "topic_id": "T03",
+      "memo": "**Memo: Assessment of SwiftCart Delivery Growth, Reliability, and Costs**\n\nTo: [Recipient Name]  \nFrom: [Your Name]  \nDate: [Current Date]  \nSubject: Analysis of SwiftCart's Performance in 2025\n\nThis memo provides an overview of SwiftCart's delivery growth, reliability, and cost structure based on the available data for the year 2025.\n\nIn 2025, SwiftCart completed 1 million deliveries, marking a significant increase from 800,000 deliveries in 2024, which represents a growth rate of 25% year-over-year [P05]. This growth aligns with the broader trend of increasing online grocery shopping in the Northstar region, where 600 out of 1,000 respondents reported purchasing groceries online in 2025, up from 520 in 2024 [P07]. The rising demand for online grocery services likely contributed to SwiftCart's delivery expansion.\n\nReliability is a critical factor for customer satisfaction in delivery services. SwiftCart's on-time delivery rate improved from 90% in 2024 to 92% in 2025 [P05]. This enhancement in reliability is noteworthy, as a survey indicated that 360 out of 600 online grocery buyers prioritized delivery reliability above other factors [P08]. The increase in on-time deliveries may positively impact customer retention and brand loyalty.\n\nHowever, the cost of delivery has risen. SwiftCart's average cost per delivery increased from 5.00 credits in 2024 to 5.40 credits in 2025, attributed to higher fuel and labor costs [P06]. This 8% rise in delivery costs could pose challenges for maintaining profitability, especially in a competitive market where price sensitivity is prevalent among consumers.\n\nIn conclusion, while SwiftCart has demonstrated substantial growth and improved reliability in its delivery services, the rising costs present a potential concern. Continued monitoring of these trends and strategic adjustments will be essential for sustaining growth and customer satisfaction in the evolving market landscape.\n\n**Data Limitations**: The analysis is based on fictional data and does not account for external market factors or competitive dynamics that may influence SwiftCart's performance.\n\n---\n\n**Footnotes**  \n[P05] SwiftCart delivery statistics.  \n[P06] SwiftCart cost analysis.  \n[P07] Northstar online grocery survey results.  \n[P08] Consumer preferences in online grocery shopping.",
+      "total_tokens": 1113,
+      "turns": 1,
+      "rejections": 0,
+      "mcp_calls": 0,
+      "status": "completed",
+      "checks": {
+        "word_count": 332,
+        "length_pass": true,
+        "citation_present": true,
+        "invalid_citations": [],
+        "automatic_checks_pass": true,
+        "rubric_pass": false
+      },
+      "rubric": {
+        "body_words": 285,
+        "distinct_citations": [
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "claims_cited": false,
+        "length_ok": true,
+        "tone_ok": false,
+        "rubric_pass": false,
+        "reasons": [
+          "2 sentence(s) with figures lack a citation, e.g. \"This memo provides an overview of SwiftCart's delivery growth, reliability, and cost struc\"",
+          "markdown formatting in body"
+        ],
+        "parsed_title": "Analysis of SwiftCart's Performance in 2025",
+        "uncited_sentences": [
+          "This memo provides an overview of SwiftCart's delivery growth, reliability, and cost structure based on the available data for the year 2025.",
+          "This 8% rise in delivery costs could pose challenges for maintaining profitability, especially in a competitive market where price sensitivity is prevalent among consumers."
+        ]
+      },
+      "seconds": 5.8,
+      "failed": true,
+      "manual_rubric_pass": null
+    },
+    {
+      "topic_id": "T04",
+      "memo": "**Memo: Assessment of Online Grocery Adoption and Delivery Reliability in Northstar**\n\nTo: [Recipient Name]  \nFrom: [Your Name]  \nDate: [Current Date]  \nSubject: Online Grocery Adoption and Delivery Reliability in Northstar\n\nThis memo provides an assessment of online grocery adoption and delivery reliability in the fictional Northstar region, based on recent survey data and delivery performance metrics.\n\nIn 2025, online grocery shopping in Northstar saw a notable increase in adoption, with 600 out of 1,000 surveyed respondents indicating they purchased groceries online, compared to 520 in 2024. This represents a growth rate of approximately 15.4% year-over-year in the number of online grocery buyers [P07]. The survey indicates a growing trend towards digital grocery shopping, reflecting changing consumer preferences.\n\nDelivery reliability emerged as a critical factor for online grocery shoppers. Among the 600 respondents who bought groceries online, 360 identified delivery reliability as their most valued aspect of the service [P08]. This highlights the importance of dependable delivery systems in fostering consumer confidence and satisfaction in online grocery shopping.\n\nThe delivery company SwiftCart, which serves the Northstar region, reported completing 1 million deliveries in 2025, an increase from 800,000 in 2024. Notably, SwiftCart's on-time delivery rate improved from 90% to 92% during the same period, suggesting enhancements in operational efficiency and customer service [P05]. However, it is important to note that the average cost per delivery rose from 5.00 credits to 5.40 credits, attributed to increased fuel and labor costs [P06]. This increase may impact consumer perceptions of value in the online grocery market.\n\nIn conclusion, the data indicates a positive trend in online grocery adoption in Northstar, with delivery reliability being a significant factor influencing consumer behavior. However, the rising costs associated with delivery services may pose challenges for sustained growth in this sector. Further research is recommended to explore consumer attitudes towards pricing and service quality in online grocery shopping.\n\n**Footnotes**  \n[P01]  \n[P02]  \n[P03]  \n[P04]  \n[P05]  \n[P06]  \n[P07]  \n[P08]  \n[P09]  \n[P10]  \n[P11]  \n[P12]  ",
+      "total_tokens": 1100,
+      "turns": 1,
+      "rejections": 0,
+      "mcp_calls": 0,
+      "status": "completed",
+      "checks": {
+        "word_count": 327,
+        "length_pass": true,
+        "citation_present": true,
+        "invalid_citations": [],
+        "automatic_checks_pass": true,
+        "rubric_pass": false
+      },
+      "rubric": {
+        "body_words": 285,
+        "distinct_citations": [
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "claims_cited": false,
+        "length_ok": true,
+        "tone_ok": true,
+        "rubric_pass": false,
+        "reasons": [
+          "2 sentence(s) with figures lack a citation, e.g. 'In 2025, online grocery shopping in Northstar saw a notable increase in adoption, with 600'"
+        ],
+        "parsed_title": "Online Grocery Adoption and Delivery Reliability in Northstar",
+        "uncited_sentences": [
+          "In 2025, online grocery shopping in Northstar saw a notable increase in adoption, with 600 out of 1,000 surveyed respondents indicating they purchased groceries online, compared to 520 in 2024.",
+          "The delivery company SwiftCart, which serves the Northstar region, reported completing 1 million deliveries in 2025, an increase from 800,000 in 2024."
+        ]
+      },
+      "seconds": 6.7,
+      "failed": true,
+      "manual_rubric_pass": null
+    },
+    {
+      "topic_id": "T05",
+      "memo": "**Memo**\n\n**To:** [Recipient Name]  \n**From:** [Your Name]  \n**Date:** [Current Date]  \n**Subject:** Assessment of CareBridge Remote Consultations and Patient Satisfaction\n\nThis memo provides an assessment of CareBridge's remote consultations and associated patient satisfaction based on the available data from 2025.\n\nIn 2025, CareBridge conducted a total of 24,000 remote consultations, marking an increase from 20,000 consultations in 2024. This growth indicates a rising trend in the adoption of remote healthcare services, with remote consultations accounting for 30% of all consultations conducted by CareBridge in that year [P09]. \n\nPatient satisfaction with these remote consultations has also shown improvement. According to a patient survey conducted by CareBridge, satisfaction rates for remote consultations rose to 80% in 2025, up from 78% in 2024 [P10]. It is important to note that the surveys utilized different respondents each year, which may affect the comparability of the satisfaction rates. Despite this limitation, the upward trend suggests that patients are increasingly satisfied with the remote consultation experience.\n\nWhile the data indicates positive growth in both the volume of consultations and patient satisfaction, it is essential to acknowledge the limitations of the available data. The survey methodology and the differing respondent pools may introduce variability in the satisfaction metrics. Additionally, the overall context of patient experiences, including factors such as consultation quality and accessibility, is not fully captured in the current dataset.\n\nIn conclusion, CareBridge's remote consultations appear to be gaining traction, with a notable increase in both the number of consultations and patient satisfaction levels. Continued monitoring and more comprehensive surveys could provide deeper insights into patient experiences and areas for improvement.\n\n**Footnotes**  \n[P09] CareBridge conducted 24,000 remote consultations in 2025, up from 20,000 in 2024.  \n[P10] CareBridge's patient survey recorded 80% satisfaction for remote consultations in 2025, compared with 78% in 2024.",
+      "total_tokens": 1046,
+      "turns": 1,
+      "rejections": 0,
+      "mcp_calls": 0,
+      "status": "completed",
+      "checks": {
+        "word_count": 299,
+        "length_pass": true,
+        "citation_present": true,
+        "invalid_citations": [],
+        "automatic_checks_pass": true,
+        "rubric_pass": false
+      },
+      "rubric": {
+        "body_words": 265,
+        "distinct_citations": [
+          "P09",
+          "P10"
+        ],
+        "claims_cited": false,
+        "length_ok": true,
+        "tone_ok": false,
+        "rubric_pass": false,
+        "reasons": [
+          "2 sentence(s) with figures lack a citation, e.g. '**To:** [Recipient Name] **From:** [Your Name] **Date:** [Current Date] **Subject:** Asses'",
+          "markdown formatting in body"
+        ],
+        "parsed_title": "**Memo**",
+        "uncited_sentences": [
+          "**To:** [Recipient Name] **From:** [Your Name] **Date:** [Current Date] **Subject:** Assessment of CareBridge Remote Consultations and Patient Satisfaction This memo provides an assessment of CareBridge's remote consultations and associated patient satisfaction based on the available data from 2025.",
+          "In 2025, CareBridge conducted a total of 24,000 remote consultations, marking an increase from 20,000 consultations in 2024."
+        ]
+      },
+      "seconds": 5.4,
+      "failed": true,
+      "manual_rubric_pass": null
+    }
+  ],
+  "team": [
+    {
+      "topic_id": "T01",
+      "run_id": "T01-team-18dddf",
+      "memo": "Rooftop Solar Installation Trends in Northstar\n\nIn 2025, the Northstar region installed a total of 120 megawatts of rooftop solar capacity, which represents an increase from 100 megawatts in 2024, measured as new capacity rather than electricity generated [P01]. This overall increase includes a rise in residential rooftop solar installations from 40 megawatts in 2024 to 55 megawatts in 2025, and a smaller increase in commercial installations from 60 megawatts to 65 megawatts during the same period [P02]. The residential installations accounted for a larger share of the increase in total capacity compared to commercial installations [P02]. \n\nThe average installed price of home batteries, which may complement rooftop solar systems, decreased from 8,000 credits in 2024 to 7,600 credits in 2025, excluding maintenance costs [P04]. This reduction in battery prices is noted, but the data does not quantify any direct relationship between battery prices and installation rates for rooftop solar systems, nor does it provide insights into consumer behavior regarding battery adoption [P04]. \n\nIt is important to note that the figures reported are limited to the specific years of 2024 and 2025 and do not account for any other factors that may affect solar installation trends, such as policy changes, incentives, or broader market conditions [P01]. Additionally, the data does not include costs associated with maintenance or other potential expenses related to solar installations, which may affect the overall financial viability for consumers [P04]. Overall, while there is an increase in rooftop solar capacity in Northstar, the analysis is limited to the data provided and does not encompass a comprehensive view of the market dynamics [P01][P02][P04].\n\nFootnotes:\n[P01] In 2025, Northstar installed 120 megawatts of rooftop solar, up from 100 megawatts in 2024, measured as new capacity.\n[P02] Northstar's residential rooftop solar installations increased from 40 to 55 megawatts between 2024 and 2025; commercial installations increased from 60 to 65 megawatts over the same period.\n[P04] Solara reduced the average installed price of its home battery from 8,000 credits in 2024 to 7,600 credits in 2025, excluding maintenance.\n",
+      "total_tokens": 47930,
+      "tokens_by_role": {
+        "supervisor": {
+          "prompt_tokens": 27871,
+          "completion_tokens": 233,
+          "total_tokens": 28104
+        },
+        "researcher": {
+          "prompt_tokens": 2272,
+          "completion_tokens": 118,
+          "total_tokens": 2390
+        },
+        "writer": {
+          "prompt_tokens": 6279,
+          "completion_tokens": 2431,
+          "total_tokens": 8710
+        },
+        "reviewer": {
+          "prompt_tokens": 3025,
+          "completion_tokens": 242,
+          "total_tokens": 3267
+        },
+        "memory": {
+          "prompt_tokens": 5365,
+          "completion_tokens": 94,
+          "total_tokens": 5459
+        }
+      },
+      "turns": 8,
+      "rejections": 3,
+      "mcp_calls": 3,
+      "mcp_calls_client": 3,
+      "status": "escalated_to_human",
+      "stop_reason": "3 reviewer rejections",
+      "trace": [
+        "supervisor",
+        "researcher",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor"
+      ],
+      "compactions": [
+        {
+          "turn": 6,
+          "tokens_before": 9009,
+          "tokens_after": 1383,
+          "messages_before": 34,
+          "messages_after": 5,
+          "summarised_messages": 30,
+          "counter": "tiktoken:o200k_base",
+          "summary_sha": "d6fc018a2ed1"
+        }
+      ],
+      "reviewer_votes": [
+        {
+          "draft_version": 1,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'reflecting a shift in consumer preference towards residential solar solutions' implies a causal relationship without supporting data, violating the claim citation rule.",
+                "The phrase 'could influence the adoption of rooftop solar systems' suggests a forecast without supporting evidence, which is not allowed according to the rubric."
+              ]
+            }
+          ]
+        },
+        {
+          "draft_version": 2,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'highlighting the growing interest in residential solar solutions among consumers' implies a causal relationship without supporting data, violating the claim citation rule.",
+                "The phrase 'the analysis is constrained by the scope of the data provided' suggests limitations that are not explicitly stated in the corpus, which could mislead readers about the data's comprehensiveness."
+              ]
+            }
+          ]
+        },
+        {
+          "draft_version": 3,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'the residential installations accounted for a larger share of the increase in total capacity compared to commercial installations' lacks a citation to support the claim about the share of increase, violating the claims cited criterion.",
+                "The phrase 'the analysis is limited to the data provided and does not encompass a comprehensive view of the market dynamics' implies a broader conclusion than what the data supports, which is not allowed under the claims cited criterion."
+              ]
+            }
+          ]
+        }
+      ],
+      "dual_review": false,
+      "scratchpad": "scratchpad/run-T01-team-18dddf.json",
+      "checks": {
+        "word_count": 344,
+        "length_pass": true,
+        "citation_present": true,
+        "invalid_citations": [],
+        "automatic_checks_pass": true,
+        "rubric_pass": true
+      },
+      "rubric": {
+        "body_words": 264,
+        "distinct_citations": [
+          "P01",
+          "P02",
+          "P04"
+        ],
+        "claims_cited": true,
+        "length_ok": true,
+        "tone_ok": true,
+        "rubric_pass": true,
+        "reasons": [],
+        "parsed_title": "Rooftop Solar Installation Trends in Northstar",
+        "uncited_sentences": []
+      },
+      "seconds": 46.3,
+      "failed": true,
+      "manual_rubric_pass": null
+    },
+    {
+      "topic_id": "T02",
+      "run_id": "T02-team-7c39df",
+      "memo": "Assessment of Solara Home Battery Sales and Pricing Trends\n\nIn 2025, Solara sold 4,000 home battery units in Northstar, an increase from 3,000 units sold in 2024, representing a growth of 1,000 units over the year [P03]. This sales figure pertains only to Solara's performance and does not encompass the entire market for home batteries, limiting the scope of the analysis [P03]. The measurement of sales is based on the number of units sold within the specified year, and the figures provided do not account for any returns or cancellations that occurred, which could affect the total sales count [P03]. Additionally, Solara reduced the average installed price of its home battery from 8,000 credits in 2024 to 7,600 credits in 2025, reflecting a decrease of 400 credits [P04]. This pricing is defined as the average cost incurred by customers for the installation of the battery, excluding any maintenance costs, which may influence the overall affordability of the product [P04]. The data provided does not include information on competitor pricing or market share, which limits the understanding of the broader market context and competitive landscape [P03][P04]. Furthermore, the sales data does not reflect customer satisfaction or product performance metrics, which are not covered in the provided information [P03]. The analysis is limited to the specified years and does not consider trends beyond 2025, which restricts the ability to assess longer-term market dynamics [P03][P04]. Overall, the limitations in scope and context must be acknowledged to fully understand the implications of these figures [P03][P04].\n\nFootnotes:\n[P03] Solara sold 4,000 home battery units in 2025, up from 3,000 in 2024; sales count does not represent the entire market.\n[P04] Solara reduced the average installed price of its home battery from 8,000 credits in 2024 to 7,600 credits in 2025; prices exclude maintenance.\n",
+      "total_tokens": 49700,
+      "tokens_by_role": {
+        "supervisor": {
+          "prompt_tokens": 24359,
+          "completion_tokens": 242,
+          "total_tokens": 24601
+        },
+        "researcher": {
+          "prompt_tokens": 1482,
+          "completion_tokens": 116,
+          "total_tokens": 1598
+        },
+        "writer": {
+          "prompt_tokens": 11745,
+          "completion_tokens": 3205,
+          "total_tokens": 14950
+        },
+        "reviewer": {
+          "prompt_tokens": 2796,
+          "completion_tokens": 196,
+          "total_tokens": 2992
+        },
+        "memory": {
+          "prompt_tokens": 5451,
+          "completion_tokens": 108,
+          "total_tokens": 5559
+        }
+      },
+      "turns": 8,
+      "rejections": 2,
+      "mcp_calls": 3,
+      "mcp_calls_client": 3,
+      "status": "completed",
+      "stop_reason": "reviewer accepted draft v3",
+      "trace": [
+        "supervisor",
+        "researcher",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor"
+      ],
+      "compactions": [
+        {
+          "turn": 6,
+          "tokens_before": 8056,
+          "tokens_after": 1294,
+          "messages_before": 34,
+          "messages_after": 5,
+          "summarised_messages": 30,
+          "counter": "tiktoken:o200k_base",
+          "summary_sha": "37492a6855b8"
+        }
+      ],
+      "reviewer_votes": [
+        {
+          "draft_version": 1,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "Body is 230 words; rubric requires 250-350.",
+                "The phrase 'which may affect the total sales count' implies a potential causal relationship without supporting data, violating the claim citation rule.",
+                "The phrase 'which could further contextualize Solara's sales performance and pricing strategy' suggests a forecast or causal implication without supporting evidence, violating the claim citation rule.",
+                "The phrase 'which are also critical for understanding market dynamics' implies a causal relationship without supporting data, violating the claim citation rule."
+              ]
+            }
+          ]
+        },
+        {
+          "draft_version": 2,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'which may impact future assessments of Solara's market position' implies a forecast, violating the criterion that no claims go beyond what the corpus supports."
+              ]
+            }
+          ]
+        },
+        {
+          "draft_version": 3,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "accept",
+              "reasons": [
+                "All claims are properly cited with corresponding footnotes.",
+                "The memo body is within the required length of 250-350 words.",
+                "The tone is professional, neutral, and adheres to the specified guidelines."
+              ]
+            }
+          ]
+        }
+      ],
+      "dual_review": false,
+      "scratchpad": "scratchpad/run-T02-team-7c39df.json",
+      "checks": {
+        "word_count": 310,
+        "length_pass": true,
+        "citation_present": true,
+        "invalid_citations": [],
+        "automatic_checks_pass": true,
+        "rubric_pass": true
+      },
+      "rubric": {
+        "body_words": 250,
+        "distinct_citations": [
+          "P03",
+          "P04"
+        ],
+        "claims_cited": true,
+        "length_ok": true,
+        "tone_ok": true,
+        "rubric_pass": true,
+        "reasons": [],
+        "parsed_title": "Assessment of Solara Home Battery Sales and Pricing Trends",
+        "uncited_sentences": []
+      },
+      "seconds": 60.2,
+      "failed": false,
+      "manual_rubric_pass": null
+    },
+    {
+      "topic_id": "T03",
+      "run_id": "T03-team-30ae25",
+      "memo": "SwiftCart Delivery Assessment\n\nIn 2025, SwiftCart completed 1 million deliveries, an increase from 800,000 deliveries in 2024, marking a growth of 25% over the year [P05]. The company's on-time delivery rate improved from 90% in 2024 to 92% in 2025, reflecting a 2 percentage point increase in reliability [P05]. A survey indicated that 360 out of 600 online buyers prioritized delivery reliability as the most important factor in their purchasing decisions, highlighting the significance of this metric in consumer preferences [P08]. However, the survey did not require respondents to rank all purchasing factors, which limits the understanding of overall customer preferences and the relative importance of delivery reliability compared to other factors [P08]. \n\nDespite the growth in delivery volume and reliability, SwiftCart's average cost per delivery increased from 5.00 credits in 2024 to 5.40 credits in 2025, representing an 8% rise [P06]. The annual report attributed this increase to higher fuel and labor costs, which are critical factors affecting operational expenses [P06]. The average cost per delivery is measured in credits and reflects the total expenses incurred for each delivery made by the company, including labor and fuel costs [P06]. This measurement is essential for evaluating the financial performance of the delivery operations. \n\nThe data does not cover customer satisfaction levels or the impact of cost increases on customer retention, which are important for a comprehensive assessment of SwiftCart's performance [P08]. Furthermore, the survey's limited scope and the exclusion of certain costs in the analysis restrict the overall understanding of the delivery service's effectiveness and customer perceptions [P08].\n\nFootnotes:\n[P05] SwiftCart completed 1 million deliveries in 2025, up from 800,000 in 2024, with an on-time delivery rate rising from 90% to 92%.\n[P06] SwiftCart's average cost per delivery rose from 5.00 credits in 2024 to 5.40 credits in 2025, attributed to higher fuel and labor costs.\n[P08] A survey found that 360 of 600 online buyers valued delivery reliability most, but did not ask respondents to rank every purchasing factor.\n",
+      "total_tokens": 64075,
+      "tokens_by_role": {
+        "supervisor": {
+          "prompt_tokens": 25973,
+          "completion_tokens": 219,
+          "total_tokens": 26192
+        },
+        "researcher": {
+          "prompt_tokens": 1925,
+          "completion_tokens": 112,
+          "total_tokens": 2037
+        },
+        "writer": {
+          "prompt_tokens": 21988,
+          "completion_tokens": 5472,
+          "total_tokens": 27460
+        },
+        "reviewer": {
+          "prompt_tokens": 2971,
+          "completion_tokens": 183,
+          "total_tokens": 3154
+        },
+        "memory": {
+          "prompt_tokens": 5146,
+          "completion_tokens": 86,
+          "total_tokens": 5232
+        }
+      },
+      "turns": 8,
+      "rejections": 3,
+      "mcp_calls": 3,
+      "mcp_calls_client": 3,
+      "status": "escalated_to_human",
+      "stop_reason": "3 reviewer rejections",
+      "trace": [
+        "supervisor",
+        "researcher",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor"
+      ],
+      "compactions": [
+        {
+          "turn": 6,
+          "tokens_before": 8568,
+          "tokens_after": 1320,
+          "messages_before": 34,
+          "messages_after": 5,
+          "summarised_messages": 30,
+          "counter": "tiktoken:o200k_base",
+          "summary_sha": "1c2d7ec15bb4"
+        }
+      ],
+      "reviewer_votes": [
+        {
+          "draft_version": 1,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'This improvement in delivery performance may contribute to customer satisfaction' contains causal language that goes beyond the reported figures.",
+                "The phrase 'This cost escalation may impact profitability' also contains causal language that goes beyond the reported figures.",
+                "The phrase 'while SwiftCart has demonstrated growth in delivery numbers and reliability, the rising costs present challenges that could affect its competitive position in the market' contains causal language that goes beyond the reported figures."
+              ]
+            }
+          ]
+        },
+        {
+          "draft_version": 2,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "Body is 243 words; rubric requires 250-350.",
+                "The phrase 'the fictional nature of the data limits its applicability to real-world scenarios' suggests a limitation that is not supported by the cited figures, violating the claim citation requirement."
+              ]
+            }
+          ]
+        },
+        {
+          "draft_version": 3,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "The sentence 'This measurement is essential for evaluating the financial performance of the delivery operations.' does not have an inline citation, violating the claims cited criterion."
+              ]
+            }
+          ]
+        }
+      ],
+      "dual_review": false,
+      "scratchpad": "scratchpad/run-T03-team-30ae25.json",
+      "checks": {
+        "word_count": 336,
+        "length_pass": true,
+        "citation_present": true,
+        "invalid_citations": [],
+        "automatic_checks_pass": true,
+        "rubric_pass": true
+      },
+      "rubric": {
+        "body_words": 258,
+        "distinct_citations": [
+          "P05",
+          "P06",
+          "P08"
+        ],
+        "claims_cited": true,
+        "length_ok": true,
+        "tone_ok": true,
+        "rubric_pass": true,
+        "reasons": [],
+        "parsed_title": "SwiftCart Delivery Assessment",
+        "uncited_sentences": []
+      },
+      "seconds": 80.7,
+      "failed": true,
+      "manual_rubric_pass": null
+    },
+    {
+      "topic_id": "T04",
+      "run_id": "T04-team-d9338c",
+      "memo": "Online Grocery Adoption and Delivery Reliability in Northstar\n\nIn Northstar, online grocery adoption increased from 520 out of 1,000 respondents in 2024 to 600 out of 1,000 in 2025, according to a fictional survey conducted in 2025 [P07]. This change represents a growth in the proportion of respondents purchasing groceries online, although the survey reports only the number of respondents and not transaction volumes, which limits the understanding of the overall market dynamics and consumer behavior [P07]. Among the 600 online buyers in 2025, 360 valued delivery reliability as the most important factor in their purchasing decisions, although the survey did not ask respondents to rank all purchasing factors, which may affect the interpretation of their preferences and priorities [P08]. \n\nThe delivery company SwiftCart reported completing 1 million deliveries in 2025, an increase from 800,000 deliveries in 2024, marking a 25% rise in delivery volume [P05]. Additionally, SwiftCart's on-time delivery rate improved from 90% in 2024 to 92% in 2025, defined as the percentage of deliveries made on or before the scheduled time [P05]. However, the average cost per delivery also increased from 5.00 credits in 2024 to 5.40 credits in 2025, attributed to higher fuel and labor costs [P06]. The survey does not provide data on how cost affects purchasing decisions, which limits the understanding of consumer behavior in relation to delivery costs [P06]. \n\nThe data does not cover transaction volumes or other factors influencing purchasing decisions, and the delivery data is fictional, which limits its applicability to real-world scenarios and consumer insights [P07][P08][P05][P06].\n\nFootnotes:\n[P07] In the fictional Northstar online grocery survey, 600 of 1,000 respondents bought groceries online in 2025, compared with 520 of 1,000 in 2024. The survey reports respondents, not transaction volumes.\n[P08] The same 2025 online grocery survey found that 360 of 600 online buyers valued delivery reliability most. The survey did not ask respondents to rank every purchasing factor.\n[P05] The fictional delivery company SwiftCart completed 1 million deliveries in 2025, up from 800,000 in 2024. Its on-time delivery rate rose from 90% to 92%.\n[P06] SwiftCart's average cost per delivery rose from 5.00 credits in 2024 to 5.40 credits in 2025. Higher fuel and labour costs were cited in its fictional annual report.\n",
+      "total_tokens": 62334,
+      "tokens_by_role": {
+        "supervisor": {
+          "prompt_tokens": 28922,
+          "completion_tokens": 257,
+          "total_tokens": 29179
+        },
+        "researcher": {
+          "prompt_tokens": 2153,
+          "completion_tokens": 120,
+          "total_tokens": 2273
+        },
+        "writer": {
+          "prompt_tokens": 17000,
+          "completion_tokens": 4844,
+          "total_tokens": 21844
+        },
+        "reviewer": {
+          "prompt_tokens": 3234,
+          "completion_tokens": 217,
+          "total_tokens": 3451
+        },
+        "memory": {
+          "prompt_tokens": 5487,
+          "completion_tokens": 100,
+          "total_tokens": 5587
+        }
+      },
+      "turns": 8,
+      "rejections": 3,
+      "mcp_calls": 3,
+      "mcp_calls_client": 3,
+      "status": "escalated_to_human",
+      "stop_reason": "3 reviewer rejections",
+      "trace": [
+        "supervisor",
+        "researcher",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor"
+      ],
+      "compactions": [
+        {
+          "turn": 6,
+          "tokens_before": 9469,
+          "tokens_after": 1436,
+          "messages_before": 34,
+          "messages_after": 5,
+          "summarised_messages": 30,
+          "counter": "tiktoken:o200k_base",
+          "summary_sha": "7daf7c232c5d"
+        }
+      ],
+      "reviewer_votes": [
+        {
+          "draft_version": 1,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "Body is 230 words; rubric requires 250-350.",
+                "The phrase 'which may impact consumer choices and overall satisfaction' implies a causal relationship without supporting data, violating the claim citation rule.",
+                "The phrase 'which limits the understanding of overall market dynamics and consumer behavior' suggests a limitation without a direct citation, violating the claim citation rule."
+              ]
+            }
+          ]
+        },
+        {
+          "draft_version": 2,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "The sentence 'The on-time delivery rate is defined as the percentage of deliveries made on or before the scheduled time.' does not have an inline citation, violating the claims cited criterion."
+              ]
+            }
+          ]
+        },
+        {
+          "draft_version": 3,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'the survey reports only the number of respondents and not transaction volumes, which limits the understanding of the overall market dynamics and consumer behavior' implies a limitation that is not directly supported by the cited figures, as it introduces a causal interpretation of the data without explicit backing from the corpus.",
+                "The phrase 'attributed to higher fuel and labor costs' suggests a causal relationship that is not explicitly supported by the cited data, as it goes beyond merely reporting the figures."
+              ]
+            }
+          ]
+        }
+      ],
+      "dual_review": false,
+      "scratchpad": "scratchpad/run-T04-team-d9338c.json",
+      "checks": {
+        "word_count": 384,
+        "length_pass": false,
+        "citation_present": true,
+        "invalid_citations": [],
+        "automatic_checks_pass": false,
+        "rubric_pass": true
+      },
+      "rubric": {
+        "body_words": 255,
+        "distinct_citations": [
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "claims_cited": true,
+        "length_ok": true,
+        "tone_ok": true,
+        "rubric_pass": true,
+        "reasons": [],
+        "parsed_title": "Online Grocery Adoption and Delivery Reliability in Northstar",
+        "uncited_sentences": []
+      },
+      "seconds": 76.9,
+      "failed": true,
+      "manual_rubric_pass": null
+    },
+    {
+      "topic_id": "T05",
+      "run_id": "T05-team-87c2b8",
+      "memo": "Assessment of CareBridge Remote Consultations and Patient Satisfaction\n\nIn 2025, CareBridge reported a patient satisfaction rate of 80% for remote consultations, an increase from 78% in 2024, based on a fictional patient survey that utilized different respondents each year [P10]. The total number of remote consultations conducted by CareBridge rose to 24,000 in 2025, compared to 20,000 in 2024 [P09]. In 2025, remote consultations accounted for 30% of CareBridge's total consultations, which is an increase from the previous year [P09]. The measurement of satisfaction was based on survey responses, which may not capture the full range of patient experiences or the quality of care received during these consultations [P10]. \n\nThe patient satisfaction figures are derived from surveys that do not track the same individuals over the years, which may affect the comparability of the results [P10]. The data does not include any information on the costs associated with these consultations or the overall effectiveness of the care provided, limiting the understanding of the financial implications and clinical outcomes [P09]. Additionally, the survey methodology and sample size limitations may impact the reliability of the satisfaction ratings reported, as the surveys used different respondents each year [P10]. \n\nThe increase in patient satisfaction and the rise in the number of remote consultations are based on the reported figures, but the context of these findings must be carefully considered [P10]. The surveys do not provide a comprehensive view of patient experiences or the effectiveness of care, and the differing respondents each year may influence the results [P10]. Therefore, while there are observable changes in satisfaction and consultation volume, the limitations of the data must be acknowledged to understand the implications for future service delivery in the healthcare sector [P10].\n\nFootnotes:\n[P09] The fictional healthcare provider CareBridge conducted 24,000 remote consultations in 2025, up from 20,000 in 2024. Remote consultations represented 30% of its total consultations in 2025.\n[P10] CareBridge's fictional patient survey recorded 80% satisfaction for remote consultations in 2025, compared with 78% in 2024. The surveys used different respondents each year.\n",
+      "total_tokens": 51117,
+      "tokens_by_role": {
+        "supervisor": {
+          "prompt_tokens": 25255,
+          "completion_tokens": 238,
+          "total_tokens": 25493
+        },
+        "researcher": {
+          "prompt_tokens": 1717,
+          "completion_tokens": 105,
+          "total_tokens": 1822
+        },
+        "writer": {
+          "prompt_tokens": 11989,
+          "completion_tokens": 3523,
+          "total_tokens": 15512
+        },
+        "reviewer": {
+          "prompt_tokens": 2873,
+          "completion_tokens": 241,
+          "total_tokens": 3114
+        },
+        "memory": {
+          "prompt_tokens": 5056,
+          "completion_tokens": 120,
+          "total_tokens": 5176
+        }
+      },
+      "turns": 8,
+      "rejections": 3,
+      "mcp_calls": 3,
+      "mcp_calls_client": 3,
+      "status": "escalated_to_human",
+      "stop_reason": "3 reviewer rejections",
+      "trace": [
+        "supervisor",
+        "researcher",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor"
+      ],
+      "compactions": [
+        {
+          "turn": 6,
+          "tokens_before": 8396,
+          "tokens_after": 1414,
+          "messages_before": 34,
+          "messages_after": 5,
+          "summarised_messages": 30,
+          "counter": "tiktoken:o200k_base",
+          "summary_sha": "af79f46bf6d8"
+        }
+      ],
+      "reviewer_votes": [
+        {
+          "draft_version": 1,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "Body is 245 words; rubric requires 250-350.",
+                "The phrase 'indicating a growth in the volume of remote consultations' implies a causal relationship without supporting evidence: 'indicating a growth in the volume of remote consultations'.",
+                "The phrase 'reflecting an increase in their share of overall service delivery' also implies causation: 'reflecting an increase in their share of overall service delivery'.",
+                "The phrase 'while there is an observable increase in both patient satisfaction and the number of remote consultations' suggests a correlation without evidence: 'while there is an observable increase in both patient satisfaction and the number of remote consultations'."
+              ]
+            }
+          ]
+        },
+        {
+          "draft_version": 2,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'the reported increase in patient satisfaction and the rise in the number of remote consultations should be viewed with caution due to the limitations of the data' implies a causal relationship without sufficient support from the cited figures. This violates the criterion that no claim goes beyond what a corpus paragraph could support."
+              ]
+            }
+          ]
+        },
+        {
+          "draft_version": 3,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'the increase in patient satisfaction and the rise in the number of remote consultations are based on the reported figures' implies a causal relationship without sufficient support from the cited figures."
+              ]
+            }
+          ]
+        }
+      ],
+      "dual_review": false,
+      "scratchpad": "scratchpad/run-T05-team-87c2b8.json",
+      "checks": {
+        "word_count": 342,
+        "length_pass": true,
+        "citation_present": true,
+        "invalid_citations": [],
+        "automatic_checks_pass": true,
+        "rubric_pass": true
+      },
+      "rubric": {
+        "body_words": 279,
+        "distinct_citations": [
+          "P09",
+          "P10"
+        ],
+        "claims_cited": true,
+        "length_ok": true,
+        "tone_ok": true,
+        "rubric_pass": true,
+        "reasons": [],
+        "parsed_title": "Assessment of CareBridge Remote Consultations and Patient Satisfaction",
+        "uncited_sentences": []
+      },
+      "seconds": 62.5,
+      "failed": true,
+      "manual_rubric_pass": null
+    }
+  ],
+  "team_dual": [
+    {
+      "topic_id": "T01",
+      "run_id": "T01-dual-67fae0",
+      "memo": "Rooftop Solar Installation Trends in Northstar\n\nIn 2025, the Northstar region installed 120 megawatts of rooftop solar capacity, an increase from 100 megawatts in 2024, representing a growth of 20 megawatts over the one-year period [P01]. Installations are measured as new capacity added, not the amount of electricity generated [P01]. Residential rooftop solar installations specifically rose from 40 megawatts in 2024 to 55 megawatts in 2025, marking an increase of 15 megawatts [P02]. Meanwhile, commercial rooftop solar installations saw a smaller increase, growing from 60 megawatts in 2024 to 65 megawatts in 2025, which is an increase of 5 megawatts [P02]. The total rooftop solar installations in Northstar for 2025 reached 120 megawatts, combining both residential and commercial sectors [P01]. \n\nAdditionally, the average installed price of home batteries in Northstar decreased, with Solara reducing its price from 8,000 credits in 2024 to 7,600 credits in 2025 [P04]. This price change reflects the cost of installation but does not include maintenance expenses [P04]. The data on rooftop solar installations is limited to the specified years of 2024 and 2025 and does not account for other factors such as the total number of installations or the geographical distribution of these installations within Northstar [P01]. Furthermore, the figures provided do not include any operational costs associated with these installations, which may affect the overall assessment of the market [P01]. Overall, the data presents a snapshot of the growth in rooftop solar capacity and associated costs in Northstar for the years 2024 and 2025, with specific limitations on the scope of the information provided [P01][P02][P04].\n\nFootnotes:\n[P01] In 2025, Northstar installed 120 megawatts of rooftop solar, up from 100 megawatts in 2024.\n[P02] Northstar's residential rooftop solar installations increased from 40 to 55 megawatts between 2024 and 2025. Commercial installations increased from 60 to 65 megawatts over the same period.\n[P04] Solara reduced the average installed price of its home battery from 8,000 credits in 2024 to 7,600 credits in 2025. These prices exclude maintenance.\n",
+      "total_tokens": 39120,
+      "tokens_by_role": {
+        "supervisor": {
+          "prompt_tokens": 16876,
+          "completion_tokens": 177,
+          "total_tokens": 17053
+        },
+        "researcher": {
+          "prompt_tokens": 2272,
+          "completion_tokens": 118,
+          "total_tokens": 2390
+        },
+        "writer": {
+          "prompt_tokens": 7002,
+          "completion_tokens": 2495,
+          "total_tokens": 9497
+        },
+        "reviewer": {
+          "prompt_tokens": 2053,
+          "completion_tokens": 144,
+          "total_tokens": 2197
+        },
+        "reviewer_b": {
+          "prompt_tokens": 2081,
+          "completion_tokens": 147,
+          "total_tokens": 2228
+        },
+        "memory": {
+          "prompt_tokens": 5694,
+          "completion_tokens": 61,
+          "total_tokens": 5755
+        }
+      },
+      "turns": 6,
+      "rejections": 1,
+      "mcp_calls": 3,
+      "mcp_calls_client": 3,
+      "status": "completed",
+      "stop_reason": "reviewer accepted draft v2",
+      "trace": [
+        "supervisor",
+        "researcher",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor"
+      ],
+      "compactions": [
+        {
+          "turn": 5,
+          "tokens_before": 8419,
+          "tokens_after": 1895,
+          "messages_before": 31,
+          "messages_after": 5,
+          "summarised_messages": 27,
+          "counter": "tiktoken:o200k_base",
+          "summary_sha": "8fb343f79541"
+        }
+      ],
+      "reviewer_votes": [
+        {
+          "draft_version": 1,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'This increase in installations is measured as new capacity rather than the amount of electricity generated' lacks a citation and introduces a distinction not supported by the corpus.",
+                "The phrase 'the figures provided do not include any operational costs or the overall impact of these installations on energy consumption or savings' introduces a limitation that is not cited and goes beyond the reported figures."
+              ]
+            },
+            {
+              "reviewer": "B",
+              "temperature": 0.7,
+              "decision": "accept",
+              "reasons": [
+                "All claims are properly cited with references to the footnotes, supporting the reported figures.",
+                "The memo body contains 253 words, which is within the required range of 250-350 words.",
+                "The tone is professional and neutral, without any hype or casual language."
+              ]
+            }
+          ]
+        },
+        {
+          "draft_version": 2,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "accept",
+              "reasons": [
+                "All claims are properly cited with corresponding footnotes.",
+                "The body of the memo is within the required word count of 250-350 words.",
+                "The tone is professional, neutral, and adheres to the specified style guidelines."
+              ]
+            },
+            {
+              "reviewer": "B",
+              "temperature": 0.7,
+              "decision": "accept",
+              "reasons": [
+                "All figures and claims made in the memo are supported by citations [P01], [P02], and [P04].",
+                "The memo body contains 259 words, which falls within the specified length of 250-350 words.",
+                "The tone is professional, neutral, and free of any hype or first-person language."
+              ]
+            }
+          ]
+        }
+      ],
+      "dual_review": true,
+      "scratchpad": "scratchpad/run-T01-dual-67fae0.json",
+      "checks": {
+        "word_count": 337,
+        "length_pass": true,
+        "citation_present": true,
+        "invalid_citations": [],
+        "automatic_checks_pass": true,
+        "rubric_pass": true
+      },
+      "rubric": {
+        "body_words": 259,
+        "distinct_citations": [
+          "P01",
+          "P02",
+          "P04"
+        ],
+        "claims_cited": true,
+        "length_ok": true,
+        "tone_ok": true,
+        "rubric_pass": true,
+        "reasons": [],
+        "parsed_title": "Rooftop Solar Installation Trends in Northstar",
+        "uncited_sentences": []
+      },
+      "seconds": 51.6,
+      "failed": false,
+      "manual_rubric_pass": null
+    },
+    {
+      "topic_id": "T02",
+      "run_id": "T02-dual-6d4b3b",
+      "memo": "Solara Home Battery Sales and Pricing Trends\n\nIn 2025, Solara sold 4,000 home battery units in Northstar, an increase from 3,000 units sold in 2024, representing a growth of 1,000 units over the year [P03]. This sales figure pertains only to Solara and does not encompass the entire market for home batteries, which limits the understanding of overall market dynamics and competitive positioning [P03]. Additionally, Solara reduced the average installed price of its home battery from 8,000 credits in 2024 to 7,600 credits in 2025, a decrease of 400 credits [P04]. These prices are defined as the average cost for installation and do not include maintenance costs, which could influence the total expenditure for consumers [P04]. \n\nThe sales figures are based on the number of units sold within the specified year and do not account for any potential returns, warranty claims, or other factors that could impact net sales [P03]. Furthermore, the pricing data is limited to the average installed price and does not include variations in installation costs or additional fees that could affect consumer decisions [P04]. The sales count and pricing trends provide specific data points regarding Solara's operations but do not reflect broader market trends or competitive actions from other companies in the home battery sector [P03][P04]. \n\nWhile Solara's sales increased and the average price decreased, the limitations of the data restrict the ability to fully assess the market landscape and consumer behavior in the home battery sector, as the figures do not account for the entire market or additional costs associated with ownership [P03][P04].\n\nFootnotes:\n[P03] Solara sold 4,000 home battery units in Northstar in 2025, compared with 3,000 in 2024. Its sales count does not represent the entire market.\n[P04] Solara reduced the average installed price of its home battery from 8,000 credits in 2024 to 7,600 credits in 2025. These prices exclude maintenance.\n",
+      "total_tokens": 53242,
+      "tokens_by_role": {
+        "supervisor": {
+          "prompt_tokens": 27415,
+          "completion_tokens": 224,
+          "total_tokens": 27639
+        },
+        "researcher": {
+          "prompt_tokens": 1482,
+          "completion_tokens": 116,
+          "total_tokens": 1598
+        },
+        "writer": {
+          "prompt_tokens": 9591,
+          "completion_tokens": 2948,
+          "total_tokens": 12539
+        },
+        "reviewer": {
+          "prompt_tokens": 2817,
+          "completion_tokens": 138,
+          "total_tokens": 2955
+        },
+        "reviewer_b": {
+          "prompt_tokens": 2859,
+          "completion_tokens": 284,
+          "total_tokens": 3143
+        },
+        "memory": {
+          "prompt_tokens": 5270,
+          "completion_tokens": 98,
+          "total_tokens": 5368
+        }
+      },
+      "turns": 8,
+      "rejections": 3,
+      "mcp_calls": 3,
+      "mcp_calls_client": 3,
+      "status": "escalated_to_human",
+      "stop_reason": "3 reviewer rejections",
+      "trace": [
+        "supervisor",
+        "researcher",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor"
+      ],
+      "compactions": [
+        {
+          "turn": 6,
+          "tokens_before": 10301,
+          "tokens_after": 1488,
+          "messages_before": 40,
+          "messages_after": 5,
+          "summarised_messages": 36,
+          "counter": "tiktoken:o200k_base",
+          "summary_sha": "7a24d4334dbc"
+        }
+      ],
+      "reviewer_votes": [
+        {
+          "draft_version": 1,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'the limitations of the data restrict a full assessment of the market landscape and consumer behavior in the home battery sector' implies a forecast or causal relationship that goes beyond the reported figures."
+              ]
+            },
+            {
+              "reviewer": "B",
+              "temperature": 0.7,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'provide insight into Solara's performance' suggests a causal inference that is unsupported by the data: 'the sales count and pricing trends provide insight into Solara's performance but do not reflect broader market trends or competitive actions from other companies in the home battery sector.'",
+                "The phrase 'the limitations of the data restrict a full assessment of the market landscape and consumer behavior in the home battery sector' implies a conclusion about the data's implications that is not supported by the cited figures."
+              ]
+            }
+          ]
+        },
+        {
+          "draft_version": 2,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'the data limitations restrict a comprehensive understanding of the market landscape and consumer behavior in the home battery sector' implies a causal relationship without supporting evidence, violating the claim citation requirement."
+              ]
+            },
+            {
+              "reviewer": "B",
+              "temperature": 0.7,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'representing a growth of 1,000 units over the year' implies a causal relationship that the data does not support.",
+                "The phrase 'reflecting a decrease of 400 credits' asserts a cause that the figures do not explicitly indicate.",
+                "The phrase 'may affect the total expenditure for consumers and the perceived value of the product' implies a causal relationship that goes beyond the reported figures."
+              ]
+            }
+          ]
+        },
+        {
+          "draft_version": 3,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'While Solara's sales increased and the average price decreased' implies a causal relationship without supporting data, which violates the claim citation requirement."
+              ]
+            },
+            {
+              "reviewer": "B",
+              "temperature": 0.7,
+              "decision": "accept",
+              "reasons": [
+                "All claims made in the memo are supported by citations [P03] and [P04], which are present in the footnotes.",
+                "The memo body contains 258 words, which is within the required length of 250-350 words.",
+                "The tone of the memo is professional and neutral, adhering to the guidelines without any hype or first-person language."
+              ]
+            }
+          ]
+        }
+      ],
+      "dual_review": true,
+      "scratchpad": "scratchpad/run-T02-dual-6d4b3b.json",
+      "checks": {
+        "word_count": 320,
+        "length_pass": true,
+        "citation_present": true,
+        "invalid_citations": [],
+        "automatic_checks_pass": true,
+        "rubric_pass": true
+      },
+      "rubric": {
+        "body_words": 258,
+        "distinct_citations": [
+          "P03",
+          "P04"
+        ],
+        "claims_cited": true,
+        "length_ok": true,
+        "tone_ok": true,
+        "rubric_pass": true,
+        "reasons": [],
+        "parsed_title": "Solara Home Battery Sales and Pricing Trends",
+        "uncited_sentences": []
+      },
+      "seconds": 63.1,
+      "failed": true,
+      "manual_rubric_pass": null
+    },
+    {
+      "topic_id": "T03",
+      "run_id": "T03-dual-b0bf65",
+      "memo": "SwiftCart Delivery Assessment\n\nIn 2025, SwiftCart completed 1 million deliveries, an increase from 800,000 deliveries in 2024, marking a growth of 25% over the year [P05]. The company's on-time delivery rate improved from 90% in 2024 to 92% in 2025, reflecting a 2 percentage point increase [P05]. In a 2025 survey of online grocery buyers, 360 out of 600 respondents valued delivery reliability most when making purchasing decisions [P08]. However, the survey did not ask respondents to rank every purchasing factor, which limits the understanding of how delivery reliability compares to other factors [P08]. Additionally, the survey's scope was limited to online grocery buyers, which may not represent the broader market of delivery services [P08]. \n\nDespite the growth in deliveries and improved reliability, SwiftCart's average cost per delivery increased from 5.00 credits in 2024 to 5.40 credits in 2025, representing an 8% rise [P06]. This cost is measured as the average expense incurred by SwiftCart for each delivery made, including operational costs such as fuel and labor [P06]. The annual report attributed this increase to higher fuel and labor costs, which are significant components of operational expenses [P06]. The report does not provide specific details on how these rising costs may influence overall pricing strategies or market competitiveness [P06]. \n\nOverall, SwiftCart has shown growth in delivery volume and reliability, but the increase in delivery costs may affect its financial performance and pricing strategies [P06]. The data does not provide insights into customer satisfaction beyond the reliability factor or the overall financial performance of SwiftCart, limiting a comprehensive assessment of its market position and operational efficiency [P08].\n\nFootnotes:\n[P05] SwiftCart completed 1 million deliveries in 2025, up from 800,000 in 2024, with an on-time delivery rate rising from 90% to 92%.\n[P06] SwiftCart's average cost per delivery rose from 5.00 credits in 2024 to 5.40 credits in 2025, attributed to higher fuel and labor costs.\n[P08] In a 2025 survey, 360 of 600 online buyers valued delivery reliability most, but the survey did not ask respondents to rank every purchasing factor.\n",
+      "total_tokens": 58199,
+      "tokens_by_role": {
+        "supervisor": {
+          "prompt_tokens": 28189,
+          "completion_tokens": 222,
+          "total_tokens": 28411
+        },
+        "researcher": {
+          "prompt_tokens": 1925,
+          "completion_tokens": 112,
+          "total_tokens": 2037
+        },
+        "writer": {
+          "prompt_tokens": 12198,
+          "completion_tokens": 3782,
+          "total_tokens": 15980
+        },
+        "reviewer": {
+          "prompt_tokens": 2995,
+          "completion_tokens": 153,
+          "total_tokens": 3148
+        },
+        "reviewer_b": {
+          "prompt_tokens": 3037,
+          "completion_tokens": 216,
+          "total_tokens": 3253
+        },
+        "memory": {
+          "prompt_tokens": 5262,
+          "completion_tokens": 108,
+          "total_tokens": 5370
+        }
+      },
+      "turns": 8,
+      "rejections": 3,
+      "mcp_calls": 3,
+      "mcp_calls_client": 3,
+      "status": "escalated_to_human",
+      "stop_reason": "3 reviewer rejections",
+      "trace": [
+        "supervisor",
+        "researcher",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor"
+      ],
+      "compactions": [
+        {
+          "turn": 6,
+          "tokens_before": 10583,
+          "tokens_after": 1409,
+          "messages_before": 40,
+          "messages_after": 5,
+          "summarised_messages": 36,
+          "counter": "tiktoken:o200k_base",
+          "summary_sha": "2e78b74b2c24"
+        }
+      ],
+      "reviewer_votes": [
+        {
+          "draft_version": 1,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'this rise in costs could affect the company's pricing strategy and competitiveness in the market' contains causal language that goes beyond the reported figures."
+              ]
+            },
+            {
+              "reviewer": "B",
+              "temperature": 0.7,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'This improvement in reliability is significant' asserts a qualitative evaluation that is not supported by the cited data.",
+                "The phrase 'this rise in costs could affect the company's pricing strategy and competitiveness in the market' implies a causal relationship and forecasts potential impacts without supporting evidence."
+              ]
+            }
+          ]
+        },
+        {
+          "draft_version": 2,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'which are critical components of operational expenses' implies a causal relationship without supporting data: 'the annual report attributed this increase to higher fuel and labor costs, which are critical components of operational expenses.'",
+                "The phrase 'the increase in delivery costs presents challenges for maintaining profitability' suggests a forecast or causal implication without supporting evidence."
+              ]
+            },
+            {
+              "reviewer": "B",
+              "temperature": 0.7,
+              "decision": "accept",
+              "reasons": [
+                "All claims are cited appropriately with valid citations present for each figure or statement.",
+                "The memo body contains 256 words, which is within the specified length requirements.",
+                "The tone is professional, neutral, and free from any hype language, first-person references, or markdown formatting."
+              ]
+            }
+          ]
+        },
+        {
+          "draft_version": 3,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'may affect its financial performance and pricing strategies' implies a forecast without supporting data, violating the claim citation rule."
+              ]
+            },
+            {
+              "reviewer": "B",
+              "temperature": 0.7,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'marking a growth of 25% over the year' implies a causal relationship without sufficient backing, as the figures alone do not establish a causal link. Additionally, the statement 'the increase in delivery costs may affect its financial performance and pricing strategies' suggests a forecast based on the figures, which is not supported by the provided data."
+              ]
+            }
+          ]
+        }
+      ],
+      "dual_review": true,
+      "scratchpad": "scratchpad/run-T03-dual-b0bf65.json",
+      "checks": {
+        "word_count": 346,
+        "length_pass": true,
+        "citation_present": true,
+        "invalid_citations": [],
+        "automatic_checks_pass": true,
+        "rubric_pass": true
+      },
+      "rubric": {
+        "body_words": 266,
+        "distinct_citations": [
+          "P05",
+          "P06",
+          "P08"
+        ],
+        "claims_cited": true,
+        "length_ok": true,
+        "tone_ok": true,
+        "rubric_pass": true,
+        "reasons": [],
+        "parsed_title": "SwiftCart Delivery Assessment",
+        "uncited_sentences": []
+      },
+      "seconds": 67.3,
+      "failed": true,
+      "manual_rubric_pass": null
+    },
+    {
+      "topic_id": "T04",
+      "run_id": "T04-dual-1e4fac",
+      "memo": "Online Grocery Adoption and Delivery Reliability in Northstar\n\nIn Northstar, online grocery adoption increased from 520 out of 1,000 respondents in 2024 to 600 out of 1,000 in 2025, according to a fictional survey conducted in 2025 [P07]. This survey measured the number of respondents who purchased groceries online, not the transaction volumes, which limits the understanding of overall market dynamics [P07]. Among the 600 online grocery buyers in 2025, 360 valued delivery reliability as the most important factor in their purchasing decisions [P08]. The survey did not ask respondents to rank all purchasing factors, which further limits the understanding of consumer preferences in the online grocery market [P08]. Additionally, the survey's focus on respondents rather than transaction volumes restricts insights into overall market size and spending behavior in the online grocery sector [P07]. \n\nIn terms of delivery performance, the fictional delivery company SwiftCart completed 1 million deliveries in 2025, an increase from 800,000 in 2024, marking a 25% rise in delivery volume [P05]. The on-time delivery rate for SwiftCart improved from 90% in 2024 to 92% in 2025 [P05]. However, the average cost per delivery also increased from 5.00 credits in 2024 to 5.40 credits in 2025 [P06]. Higher fuel and labor costs were cited in SwiftCart's fictional annual report, but the data does not specify how these costs affect consumer behavior [P06]. \n\nOverall, while online grocery adoption and delivery reliability show trends in Northstar, the data is limited to survey responses and does not encompass transaction volumes or broader market dynamics [P07][P08]. Furthermore, the survey's focus on delivery reliability does not provide a complete picture of consumer priorities in online grocery shopping [P08].\n\nFootnotes:\n[P05] The fictional delivery company SwiftCart completed 1 million deliveries in 2025, up from 800,000 in 2024. Its on-time delivery rate rose from 90% to 92%.\n[P06] SwiftCart's average cost per delivery rose from 5.00 credits in 2024 to 5.40 credits in 2025. Higher fuel and labour costs were cited in its fictional annual report.\n[P07] In a fictional Northstar online grocery survey, 600 of 1,000 respondents bought groceries online in 2025, compared with 520 of 1,000 in 2024. The survey reports respondents, not transaction volumes.\n[P08] The same 2025 online grocery survey found that 360 of 600 online buyers valued delivery reliability most. The survey did not ask respondents to rank every purchasing factor.\n",
+      "total_tokens": 78668,
+      "tokens_by_role": {
+        "supervisor": {
+          "prompt_tokens": 32818,
+          "completion_tokens": 233,
+          "total_tokens": 33051
+        },
+        "researcher": {
+          "prompt_tokens": 2153,
+          "completion_tokens": 120,
+          "total_tokens": 2273
+        },
+        "writer": {
+          "prompt_tokens": 19662,
+          "completion_tokens": 5592,
+          "total_tokens": 25254
+        },
+        "reviewer": {
+          "prompt_tokens": 3257,
+          "completion_tokens": 227,
+          "total_tokens": 3484
+        },
+        "reviewer_b": {
+          "prompt_tokens": 3299,
+          "completion_tokens": 192,
+          "total_tokens": 3491
+        },
+        "memory": {
+          "prompt_tokens": 10944,
+          "completion_tokens": 171,
+          "total_tokens": 11115
+        }
+      },
+      "turns": 8,
+      "rejections": 3,
+      "mcp_calls": 3,
+      "mcp_calls_client": 3,
+      "status": "escalated_to_human",
+      "stop_reason": "3 reviewer rejections",
+      "trace": [
+        "supervisor",
+        "researcher",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor"
+      ],
+      "compactions": [
+        {
+          "turn": 5,
+          "tokens_before": 8949,
+          "tokens_after": 2096,
+          "messages_before": 31,
+          "messages_after": 5,
+          "summarised_messages": 27,
+          "counter": "tiktoken:o200k_base",
+          "summary_sha": "88ed66b0847b"
+        },
+        {
+          "turn": 8,
+          "tokens_before": 10883,
+          "tokens_after": 1682,
+          "messages_before": 28,
+          "messages_after": 5,
+          "summarised_messages": 24,
+          "counter": "tiktoken:o200k_base",
+          "summary_sha": "1cf0f0504a11"
+        }
+      ],
+      "reviewer_votes": [
+        {
+          "draft_version": 1,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'may affect the comprehensiveness of the findings regarding consumer preferences' implies a causal relationship without supporting data, violating the claim citation rule.",
+                "The phrase 'may impact consumer perceptions of value in the online grocery market' also suggests a forecast or causal effect without supporting evidence, violating the claim citation rule."
+              ]
+            },
+            {
+              "reviewer": "B",
+              "temperature": 0.7,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'may affect the comprehensiveness of the findings regarding consumer preferences' implies a causal effect that is not supported by the figures provided.",
+                "The statement 'may impact consumer perceptions of value in the online grocery market' suggests a causal relationship that is not substantiated by the data."
+              ]
+            }
+          ]
+        },
+        {
+          "draft_version": 2,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'attributed to higher fuel and labor costs' implies a causal relationship without supporting data: 'the average cost per delivery also increased from 5.00 credits in 2024 to 5.40 credits in 2025, attributed to higher fuel and labor costs.'",
+                "The phrase 'may influence consumer decisions regarding online grocery purchases' suggests a forecast without supporting evidence: 'This increase in delivery costs may influence consumer decisions regarding online grocery purchases.'"
+              ]
+            },
+            {
+              "reviewer": "B",
+              "temperature": 0.7,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'this increase in delivery costs may influence consumer decisions regarding online grocery purchases' implies a causal relationship that is not supported by the data."
+              ]
+            }
+          ]
+        },
+        {
+          "draft_version": 3,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'the data is limited to survey responses and does not encompass transaction volumes or broader market dynamics' implies a limitation that is not directly supported by the cited figures, violating the claim support requirement."
+              ]
+            },
+            {
+              "reviewer": "B",
+              "temperature": 0.7,
+              "decision": "accept",
+              "reasons": [
+                "Every sentence that states a figure, trend, or factual claim carries at least one inline citation, and all cited IDs appear in the footnotes.",
+                "The memo body is within the specified length of 250-350 words.",
+                "The tone is professional, neutral, and plain, with no use of markdown, first person, hype words, or exclamation marks."
+              ]
+            }
+          ]
+        }
+      ],
+      "dual_review": true,
+      "scratchpad": "scratchpad/run-T04-dual-1e4fac.json",
+      "checks": {
+        "word_count": 402,
+        "length_pass": false,
+        "citation_present": true,
+        "invalid_citations": [],
+        "automatic_checks_pass": false,
+        "rubric_pass": true
+      },
+      "rubric": {
+        "body_words": 273,
+        "distinct_citations": [
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "claims_cited": true,
+        "length_ok": true,
+        "tone_ok": true,
+        "rubric_pass": true,
+        "reasons": [],
+        "parsed_title": "Online Grocery Adoption and Delivery Reliability in Northstar",
+        "uncited_sentences": []
+      },
+      "seconds": 88.5,
+      "failed": true,
+      "manual_rubric_pass": null
+    },
+    {
+      "topic_id": "T05",
+      "run_id": "T05-dual-b8a9f3",
+      "memo": "Assessment of CareBridge Remote Consultations and Patient Satisfaction\n\nIn 2025, CareBridge reported a patient satisfaction rate of 80% for remote consultations, an increase from 78% in 2024, based on a fictional patient survey conducted each year with different respondents [P10]. The total number of remote consultations conducted by CareBridge rose to 24,000 in 2025, compared to 20,000 in 2024, marking a 20% increase in the volume of these consultations [P09]. In 2025, remote consultations accounted for 30% of CareBridge's total consultations, which is an increase from a lower percentage in 2024, although the exact figure for 2024 is not provided [P09]. The satisfaction rate was measured through surveys that asked patients to rate their experiences with remote consultations on a scale, but the differing respondents each year limit the ability to track changes in satisfaction among the same individuals over time [P10]. \n\nThe data does not provide insights into the specific experiences of patients during these consultations or the factors influencing the increase in remote consultations from 2024 to 2025 [P09]. Additionally, the data does not include information on the demographics of the patients surveyed or the specific aspects of the consultations that contributed to satisfaction levels [P10]. The fictional nature of the survey limits the ability to generalize the findings to real-world scenarios, and the lack of longitudinal tracking of patient experiences restricts comprehensive analysis [P10]. Overall, while the reported satisfaction and consultation numbers show an upward trend, the limitations of the data must be acknowledged, including the differing respondents each year and the absence of detailed demographic information, which may impact the understanding of patient satisfaction and consultation growth [P10].\n\nFootnotes:\n[P09] The fictional healthcare provider CareBridge conducted 24,000 remote consultations in 2025, up from 20,000 in 2024. Remote consultations represented 30% of its total consultations in 2025.\n[P10] CareBridge's fictional patient survey recorded 80% satisfaction for remote consultations in 2025, compared with 78% in 2024. The surveys used different respondents each year.\n",
+      "total_tokens": 58142,
+      "tokens_by_role": {
+        "supervisor": {
+          "prompt_tokens": 29007,
+          "completion_tokens": 244,
+          "total_tokens": 29251
+        },
+        "researcher": {
+          "prompt_tokens": 1919,
+          "completion_tokens": 120,
+          "total_tokens": 2039
+        },
+        "writer": {
+          "prompt_tokens": 12011,
+          "completion_tokens": 3407,
+          "total_tokens": 15418
+        },
+        "reviewer": {
+          "prompt_tokens": 2848,
+          "completion_tokens": 256,
+          "total_tokens": 3104
+        },
+        "reviewer_b": {
+          "prompt_tokens": 2890,
+          "completion_tokens": 189,
+          "total_tokens": 3079
+        },
+        "memory": {
+          "prompt_tokens": 5141,
+          "completion_tokens": 110,
+          "total_tokens": 5251
+        }
+      },
+      "turns": 8,
+      "rejections": 3,
+      "mcp_calls": 3,
+      "mcp_calls_client": 3,
+      "status": "escalated_to_human",
+      "stop_reason": "3 reviewer rejections",
+      "trace": [
+        "supervisor",
+        "researcher",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor",
+        "writer",
+        "supervisor",
+        "reviewer",
+        "supervisor"
+      ],
+      "compactions": [
+        {
+          "turn": 6,
+          "tokens_before": 10695,
+          "tokens_after": 1536,
+          "messages_before": 40,
+          "messages_after": 5,
+          "summarised_messages": 36,
+          "counter": "tiktoken:o200k_base",
+          "summary_sha": "514bfc1accb6"
+        }
+      ],
+      "reviewer_votes": [
+        {
+          "draft_version": 1,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "Body is 231 words; rubric requires 250-350.",
+                "The phrase 'reflecting a growing reliance on this mode of healthcare delivery' implies a causal relationship without supporting evidence, violating the claim citation criterion.",
+                "The phrase 'the limitations of the data must be acknowledged, including the fictional nature of the survey' does not adequately acknowledge data limitations as stated in the corpus, which could mislead readers about the reliability of the findings."
+              ]
+            },
+            {
+              "reviewer": "B",
+              "temperature": 0.7,
+              "decision": "revise",
+              "reasons": [
+                "Body is 231 words; rubric requires 250-350.",
+                "The phrase 'reflecting a growing reliance on this mode of healthcare delivery' is causal language that goes beyond the reported figures."
+              ]
+            }
+          ]
+        },
+        {
+          "draft_version": 2,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'the increase in remote consultations from 2024 to 2025 does not provide insights into the reasons behind this growth' implies a causal relationship without supporting data, violating the claim citation rule.",
+                "The phrase 'the fictional nature of the survey raises questions about the reliability of the findings' introduces an unsupported assertion about reliability, which goes beyond what the cited data can support."
+              ]
+            },
+            {
+              "reviewer": "B",
+              "temperature": 0.7,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'the increase in remote consultations from 2024 to 2025 does not provide insights into the reasons behind this growth' implies a causal relationship that cannot be supported by the data reported.",
+                "The phrase 'which may affect the interpretation of the results' suggests an unsupported implication about the impact of demographic information on the findings, which goes beyond what the figures support."
+              ]
+            }
+          ]
+        },
+        {
+          "draft_version": 3,
+          "votes": [
+            {
+              "reviewer": "A",
+              "temperature": 0.0,
+              "decision": "revise",
+              "reasons": [
+                "The phrase 'the exact figure for 2024 is not provided' implies a lack of data that is not supported by the citations, violating the claim support requirement.",
+                "The phrase 'the fictional nature of the survey limits the ability to generalize the findings to real-world scenarios' introduces a causal implication about the survey's validity that is not directly supported by the cited figures."
+              ]
+            },
+            {
+              "reviewer": "B",
+              "temperature": 0.7,
+              "decision": "accept",
+              "reasons": [
+                "All claims are supported by valid citations [P09], [P10].",
+                "The memo body contains 266 words, which is within the specified length of 250-350 words.",
+                "The tone is professional, neutral, and lacks hype, exclamation marks, or first-person language."
+              ]
+            }
+          ]
+        }
+      ],
+      "dual_review": true,
+      "scratchpad": "scratchpad/run-T05-dual-b8a9f3.json",
+      "checks": {
+        "word_count": 329,
+        "length_pass": true,
+        "citation_present": true,
+        "invalid_citations": [],
+        "automatic_checks_pass": true,
+        "rubric_pass": true
+      },
+      "rubric": {
+        "body_words": 266,
+        "distinct_citations": [
+          "P09",
+          "P10"
+        ],
+        "claims_cited": true,
+        "length_ok": true,
+        "tone_ok": true,
+        "rubric_pass": true,
+        "reasons": [],
+        "parsed_title": "Assessment of CareBridge Remote Consultations and Patient Satisfaction",
+        "uncited_sentences": []
+      },
+      "seconds": 64.3,
+      "failed": true,
+      "manual_rubric_pass": null
+    }
+  ],
+  "summary": {
+    "baseline": {
+      "topics": 5,
+      "failures": 5,
+      "failure_rate": 1.0,
+      "total_tokens": 5407,
+      "mean_tokens": 1081,
+      "mean_turns": 1.0,
+      "total_rejections": 0,
+      "est_cost_usd": 0,
+      "mean_seconds": 6.2
+    },
+    "team": {
+      "topics": 5,
+      "failures": 4,
+      "failure_rate": 0.8,
+      "total_tokens": 275156,
+      "mean_tokens": 55031,
+      "mean_turns": 8.0,
+      "total_rejections": 14,
+      "est_cost_usd": 0.051544,
+      "mean_seconds": 65.3
+    },
+    "team_dual": {
+      "topics": 5,
+      "failures": 4,
+      "failure_rate": 0.8,
+      "total_tokens": 287371,
+      "mean_tokens": 57474,
+      "mean_turns": 7.6,
+      "total_rejections": 13,
+      "est_cost_usd": 0.053188,
+      "mean_seconds": 67.0
+    }
+  },
+  "error_amplification": {
+    "team": {
+      "value": 0.8,
+      "defined": true,
+      "goal_met": true
+    },
+    "team_dual": {
+      "value": 0.8,
+      "defined": true,
+      "goal_met": true
+    }
+  },
+  "stretch_cost": {
+    "single_tokens": 275156,
+    "dual_tokens": 287371,
+    "token_ratio": 1.04,
+    "single_cost": 0.051544,
+    "dual_cost": 0.053188,
+    "single_failures": 4,
+    "dual_failures": 4
+  }
+}

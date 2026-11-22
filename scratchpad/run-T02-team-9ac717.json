@@ -1,0 +1,224 @@
+{
+  "topic": "Assess Solara home battery sales and pricing trends.",
+  "snippets": [
+    {
+      "text": "The fictional firm Solara sold 4,000 home battery units in Northstar in 2025, compared with 3,000 in 2024. Its sales count does not represent the entire market.",
+      "source": "P03"
+    },
+    {
+      "text": "Solara reduced the average installed price of its home battery from 8,000 credits in 2024 to 7,600 credits in 2025. These prices exclude maintenance.",
+      "source": "P04"
+    },
+    {
+      "text": "The fictional delivery company SwiftCart completed 1 million deliveries in 2025, up from 800,000 in 2024. Its on-time delivery rate rose from 90% to 92%.",
+      "source": "P05"
+    }
+  ],
+  "draft_memo": {
+    "title": "Solara Home Battery Sales and Pricing Trends",
+    "body": "In 2025, Solara sold 4,000 home battery units in Northstar, an increase from 3,000 units sold in 2024, representing a growth of 1,000 units over the year [P03]. This sales figure pertains only to Solara and does not encompass the entire market for home batteries, limiting the understanding of overall market dynamics [P03]. The sales count is specific to the Northstar region and does not reflect sales in other areas, which may differ significantly in volume and pricing [P03]. Additionally, Solara reduced the average installed price of its home battery from 8,000 credits in 2024 to 7,600 credits in 2025, reflecting a decrease of 400 credits [P04]. These prices are defined as the total cost for installation and do not include maintenance costs, which may affect the total expenditure for consumers [P04]. \n\nThe increase in sales and the reduction in price occurred within the same timeframe, but the data does not provide insights into the reasons behind these changes [P03][P04]. Furthermore, the pricing data lacks information on any additional costs that consumers might incur, such as installation or maintenance, which could influence the overall affordability of the product [P04]. The absence of broader market data or competitor performance limits the ability to assess the overall market dynamics for home batteries [P03][P04]. \n\nOverall, the limitations in the data restrict a comprehensive analysis of the home battery market as a whole, as the figures do not include broader market trends or competitor performance, which may provide a more complete picture of the market dynamics [P03][P04].",
+    "footnotes": [
+      "[P03] Solara sold 4,000 home battery units in Northstar in 2025, compared with 3,000 in 2024. Its sales count does not represent the entire market.",
+      "[P04] Solara reduced the average installed price of its home battery from 8,000 credits in 2024 to 7,600 credits in 2025. These prices exclude maintenance."
+    ]
+  },
+  "review_verdict": {
+    "decision": "revise",
+    "reasons": [
+      "The memo contains causal language suggesting that the increase in sales and reduction in price occurred within the same timeframe, but it does not provide evidence or citations to support the reasons behind these changes. This goes beyond what the cited figures can support."
+    ]
+  },
+  "turn_count": 8,
+  "summary": "TOPIC: Assess Solara home battery sales and pricing trends.\nDECISIONS SO FAR: turn 1: hand_off_to_researcher; turn 2: hand_off_to_writer; turn 3: hand_off_to_reviewer; turn 4: hand_off_to_writer; turn 5: hand_off_to_reviewer; turn 6: hand_off_to_writer\nREVIEWER REJECTIONS: 2\n  - rejection 1: Body is 237 words; rubric requires 250-350. | The memo contains causal language suggesting that the sales increase and price reduction occurred simultaneously, but it does not provide evidence or citations to support any causal relationship between these two trends. This goes beyond what the cited figures can support.\n  - rejection 2: Body is 240 words; rubric requires 250-350. | The memo contains causal language suggesting that the sales increase occurred alongside a price reduction, which implies a relationship not supported by the cited data. This could mislead readers about the nature of the relationship between sales and pricing. | The memo states that the data does not provide insights into the reasons behind changes in sales and pricing, which is acceptable; however, it also implies a comparison to competitors without supporting evidence from the corpus, which is not allowed.\nCURRENT DRAFT LENGTH: 261 words (draft v3)\nSNIPPET SOURCES: ['P03', 'P04', 'P05']\nNARRATIVE: We decided to revise the draft to meet the word count requirement and remove unsupported causal language. The reviewer rejected the draft because it was 240 words, below the required 250-350 words, and contained causal language implying a relationship between sales increase and price reduction that was not supported by the data. Additionally, it suggested comparisons to competitors without evidence. The current draft length is 240 words and is in the revision stage.",
+  "status": "escalated_to_human",
+  "run_id": "T02-team-9ac717",
+  "topic_id": "T02",
+  "rejections": 3,
+  "rejection_reasons": [
+    [
+      "Body is 237 words; rubric requires 250-350.",
+      "The memo contains causal language suggesting that the sales increase and price reduction occurred simultaneously, but it does not provide evidence or citations to support any causal relationship between these two trends. This goes beyond what the cited figures can support."
+    ],
+    [
+      "Body is 240 words; rubric requires 250-350.",
+      "The memo contains causal language suggesting that the sales increase occurred alongside a price reduction, which implies a relationship not supported by the cited data. This could mislead readers about the nature of the relationship between sales and pricing.",
+      "The memo states that the data does not provide insights into the reasons behind changes in sales and pricing, which is acceptable; however, it also implies a comparison to competitors without supporting evidence from the corpus, which is not allowed."
+    ],
+    [
+      "The memo contains causal language suggesting that the increase in sales and reduction in price occurred within the same timeframe, but it does not provide evidence or citations to support the reasons behind these changes. This goes beyond what the cited figures can support."
+    ]
+  ],
+  "decisions": [
+    "turn 1: hand_off_to_researcher",
+    "turn 2: hand_off_to_writer",
+    "turn 3: hand_off_to_reviewer",
+    "turn 4: hand_off_to_writer",
+    "turn 5: hand_off_to_reviewer",
+    "turn 6: hand_off_to_writer",
+    "turn 7: hand_off_to_reviewer",
+    "turn 8: STOP escalated_to_human (3 reviewer rejections)"
+  ],
+  "last_event": "verdict_processed",
+  "pending_node": "",
+  "draft_version": 3,
+  "messages": [
+    {
+      "role": "summary",
+      "name": "memory",
+      "content": "TOPIC: Assess Solara home battery sales and pricing trends.\nDECISIONS SO FAR: turn 1: hand_off_to_researcher; turn 2: hand_off_to_writer; turn 3: hand_off_to_reviewer; turn 4: hand_off_to_writer; turn 5: hand_off_to_reviewer; turn 6: hand_off_to_writer\nREVIEWER REJECTIONS: 2\n  - rejection 1: Body is 237 words; rubric requires 250-350. | The memo contains causal language suggesting that the sales increase and price reduction occurred simultaneously, but it does not provide evidence or citations to support any causal relationship between these two trends. This goes beyond what the cited figures can support.\n  - rejection 2: Body is 240 words; rubric requires 250-350. | The memo contains causal language suggesting that the sales increase occurred alongside a price reduction, which implies a relationship not supported by the cited data. This could mislead readers about the nature of the relationship between sales and pricing. | The memo states that the data does not provide insights into the reasons behind changes in sales and pricing, which is acceptable; however, it also implies a comparison to competitors without supporting evidence from the corpus, which is not allowed.\nCURRENT DRAFT LENGTH: 261 words (draft v3)\nSNIPPET SOURCES: ['P03', 'P04', 'P05']\nNARRATIVE: We decided to revise the draft to meet the word count requirement and remove unsupported causal language. The reviewer rejected the draft because it was 240 words, below the required 250-350 words, and contained causal language implying a relationship between sales increase and price reduction that was not supported by the data. Additionally, it suggested comparisons to competitors without evidence. The current draft length is 240 words and is in the revision stage."
+    },
+    {
+      "role": "assistant",
+      "name": "supervisor",
+      "content": "turn 6: hand_off_to_writer -- The draft needs to be revised to meet the word count requirement and remove unsupported causal language."
+    },
+    {
+      "role": "system",
+      "name": "writer",
+      "content": "You are the Writer in a research-memo team. Write a one-page executive research memo using ONLY\nthe evidence snippets provided. Rules:\n- BODY must be 250-350 words; target 280-320 so small miscounts stay inside the range.\n  Reach the length with neutral, checkable content only: the period each figure covers, how it is measured\n  (as the snippet defines it), absolute and before/after values, and the limitations the snippets state.\n- Plain prose paragraphs only (3-5 paragraphs): no headings, bullets, bold, tables or markdown in the body.\n- Put an inline citation like [P01] at the end of EVERY sentence that contains a figure, trend or factual claim.\n  Any sentence containing a digit (a number, percentage or year such as 2024) MUST end with a citation --\n  including opening and summary sentences. If a sentence only frames or summarises, either cite the snippet it\n  summarises or remove the numbers/years from it. Cite only the snippet IDs provided.\n- Never invent figures, causes or forecasts; report changes without causal words (e.g. \"driven by\", \"due to\",\n  \"indicates a strategic\") unless a snippet states that cause, and then cite it.\n- No interpretation beyond the figures: avoid \"suggests\", \"indicates\", \"reflects\", \"signals\", \"implies\",\n  \"may have implications\", \"positive/negative trend\", \"strategic\", \"significant\", \"notable\". State what changed,\n  by how much, over which period, and what the data does not cover.\n- Neutral professional tone, third person (never \"I\", \"we\", \"our\"), no hype words, no exclamation marks.\n- Acknowledge the data limitations the snippets state (e.g. survey scope, excluded costs, fictional data).\n- If a snippet is only loosely related to the topic, use it as brief context or omit it.\n- Every sentence, including the opening and closing ones, ends with a citation. No speculative conclusion:\n  close with the stated data limitations, cited.\n- footnotes: exactly one entry per ID cited in the body (no others), formatted \"[P01] <what that snippet reports>\".\n- title: short, plain text."
+    },
+    {
+      "role": "user",
+      "name": "writer",
+      "content": "Topic: Assess Solara home battery sales and pricing trends.\n\nEvidence snippets:\n[P03] The fictional firm Solara sold 4,000 home battery units in Northstar in 2025, compared with 3,000 in 2024. Its sales count does not represent the entire market.\n[P04] Solara reduced the average installed price of its home battery from 8,000 credits in 2024 to 7,600 credits in 2025. These prices exclude maintenance.\n[P05] The fictional delivery company SwiftCart completed 1 million deliveries in 2025, up from 800,000 in 2024. Its on-time delivery rate rose from 90% to 92%.\n\nREVISION REQUEST. Your previous body was 240 words; the new body must be 280-320 words.\nPrevious draft body:\nIn 2025, Solara sold 4,000 home battery units in Northstar, an increase from 3,000 units sold in 2024, representing a growth of 1,000 units over the year [P03]. This sales figure pertains only to Solara and does not encompass the entire market for home batteries, limiting the understanding of overall market dynamics [P03]. The sales count is specific to the Northstar region and does not reflect sales in other areas, which may differ significantly in volume and pricing [P03]. Additionally, Solara reduced the average installed price of its home battery from 8,000 credits in 2024 to 7,600 credits in 2025, reflecting a decrease of 400 credits [P04]. These prices are defined as the total cost for installation and do not include maintenance costs, which may affect the total expenditure for consumers [P04]. \n\nThe sales increase occurred alongside a price reduction, but the data does not provide insights into the reasons behind these changes or how they compare to competitors in the market [P03][P04]. The pricing data also lacks information on any additional costs that consumers might incur, such as installation or maintenance, which could influence the overall affordability of the product [P04]. \n\nThe limitations in the data restrict a comprehensive analysis of the home battery market as a whole, as the figures do not include broader market trends or competitor performance, which may provide a more complete picture of the market dynamics [P03][P04].\n\nReviewer reasons to fix:\n- Body is 240 words; rubric requires 250-350.\n- The memo contains causal language suggesting that the sales increase occurred alongside a price reduction, which implies a relationship not supported by the cited data. This could mislead readers about the nature of the relationship between sales and pricing.\n- The memo states that the data does not provide insights into the reasons behind changes in sales and pricing, which is acceptable; however, it also implies a comparison to competitors without supporting evidence from the corpus, which is not allowed.\nRewrite the full memo fixing every reason."
+    },
+    {
+      "role": "assistant",
+      "name": "writer",
+      "content": "DRAFT v3 (261 words): Solara Home Battery Sales and Pricing Trends\nIn 2025, Solara sold 4,000 home battery units in Northstar, an increase from 3,000 units sold in 2024, representing a growth of 1,000 units over the year [P03]. This sales figure pertains only to Solara and does not encompass the entire market for home batteries, limiting the understanding of overall market dynamics [P03]. The sales count is specific to the Northstar region and does not reflect sales in other areas, which may differ significantly in volume and pricing [P03]. Additionally, Solara reduced the average installed price of its home battery from 8,000 credits in 2024 to 7,600 credits in 2025, reflecting a decrease of 400 credits [P04]. These prices are defined as the total cost for installation and do not include maintenance costs, which may affect the total expenditure for consumers [P04]. \n\nThe increase in sales and the reduction in price occurred within the same timeframe, but the data does not provide insights into the reasons behind these changes [P03][P04]. Furthermore, the pricing data lacks information on any additional costs that consumers might incur, such as installation or maintenance, which could influence the overall affordability of the product [P04]. The absence of broader market data or competitor performance limits the ability to assess the overall market dynamics for home batteries [P03][P04]. \n\nOverall, the limitations in the data restrict a comprehensive analysis of the home battery market as a whole, as the figures do not include broader market trends or competitor performance, which may provide a more complete picture of the market dynamics [P03][P04].\n[P03] Solara sold 4,000 home battery units in Northstar in 2025, compared with 3,000 in 2024. Its sales count does not represent the entire market.\n[P04] Solara reduced the average installed price of its home battery from 8,000 credits in 2024 to 7,600 credits in 2025. These prices exclude maintenance."
+    },
+    {
+      "role": "user",
+      "name": "supervisor",
+      "content": "TOPIC: Assess Solara home battery sales and pricing trends.\nTURN: 7 of 8\nLAST EVENT: draft_done\nSNIPPETS: ['P03', 'P04', 'P05']\n  [P03] The fictional firm Solara sold 4,000 home battery units in Northstar in 2025, compared with 3,000 in 2024. Its sales count does not represent the entire market.\n  [P04] Solara reduced the average installed price of its home battery from 8,000 credits in 2024 to 7,600 credits in 2025. These prices exclude maintenance.\n  [P05] The fictional delivery company SwiftCart completed 1 million deliveries in 2025, up from 800,000 in 2024. Its on-time delivery rate rose from 90% to 92%.\nDRAFT: v3, 261 words\n  TITLE: Solara Home Battery Sales and Pricing Trends\n  BODY: In 2025, Solara sold 4,000 home battery units in Northstar, an increase from 3,000 units sold in 2024, representing a growth of 1,000 units over the year [P03]. This sales figure pertains only to Solara and does not encompass the entire market for home batteries, limiting the understanding of overall market dynamics [P03]. The sales count is specific to the Northstar region and does not reflect sales in other areas, which may differ significantly in volume and pricing [P03]. Additionally, Solara reduced the average installed price of its home battery from 8,000 credits in 2024 to 7,600 credits in 2025, reflecting a decrease of 400 credits [P04]. These prices are defined as the total cost for installation and do not include maintenance costs, which may affect the total expenditure for consumers [P04]. \n\nThe increase in sales and the reduction in price occurred within the same timeframe, but the data does not provide insights into the reasons behind these changes [P03][P04]. Furthermore, the pricing data lacks information on any additional costs that consumers might incur, such as installation or maintenance, which could influence the overall affordability of the product [P04]. The absence of broader market data or competitor performance limits the ability to assess the overall market dynamics for home batteries [P03][P04]. \n\nOverall, the limitations in the data restrict a comprehensive analysis of the home battery market as a whole, as the figures do not include broader market trends or competitor performance, which may provide a more complete picture of the market dynamics [P03][P04].\nLAST VERDICT: {\"decision\": \"revise\", \"reasons\": [\"Body is 240 words; rubric requires 250-350.\", \"The memo contains causal language suggesting that the sales increase occurred alongside a price reduction, which implies a relationship not supported by the cited data. This could mislead readers about the nature of the relationship between sales and pricing.\", \"The memo states that the data does not provide insights into the reasons behind changes in sales and pricing, which is acceptable; however, it also implies a comparison to competitors without supporting evidence from the corpus, which is not allowed.\"]}\nREJECTIONS: 2 of 3"
+    },
+    {
+      "role": "assistant",
+      "name": "supervisor",
+      "content": "turn 7: hand_off_to_reviewer -- (guard override of hand_off_to_writer) The draft needs to be revised to meet the word count requirement and remove unsupported causal language."
+    },
+    {
+      "role": "system",
+      "name": "reviewer",
+      "content": "You are the Reviewer, a meticulous editor. Judge the memo strictly against the static rubric. Accept only if every criterion passes; otherwise return 'revise' with specific, actionable reasons. You see only the memo, not the corpus. The corpus is an intentionally fictional dataset, so words like 'fictional' in the memo are the data's own disclaimer, not invented facts. Treat a figure followed by a valid [Pxx] citation as supported; judge only what you can see: uncited claims, causal or forecast language that goes beyond the reported figures, and tone. Length, citation presence and formatting are measured by code (MEASUREMENTS below) -- trust those numbers and do not recount words."
+    },
+    {
+      "role": "user",
+      "name": "reviewer",
+      "content": "STATIC MEMO RUBRIC (all three criteria must pass for ACCEPT)\n1. CLAIMS CITED: every sentence that states a figure, trend or factual claim carries at\n   least one inline citation of the form [P01]..[P12]; only those IDs are valid; every\n   cited ID also appears in the footnotes; no claim goes beyond what a corpus\n   paragraph could support (no invented facts, causes or forecasts).\n2. LENGTH: the memo BODY (excluding title and footnotes) is 250-350 words.\n3. TONE: professional, neutral, plain prose paragraphs -- no markdown headings, bullets,\n   bold, tables or emojis; no first person (\"I\", \"we\"); no hype words or exclamation\n   marks; data limitations are acknowledged where the corpus states them.\n\nMEASUREMENTS (computed from the memo): body_words=261, cited_ids=['P03', 'P04'], footnote_ids=['P03', 'P04'], sentences_without_any_citation=[] (code-checked; do not report a citation as missing when this list is empty -- judge instead whether the cited figures support the wording)\n\nMEMO TITLE: Solara Home Battery Sales and Pricing Trends\nMEMO BODY:\nIn 2025, Solara sold 4,000 home battery units in Northstar, an increase from 3,000 units sold in 2024, representing a growth of 1,000 units over the year [P03]. This sales figure pertains only to Solara and does not encompass the entire market for home batteries, limiting the understanding of overall market dynamics [P03]. The sales count is specific to the Northstar region and does not reflect sales in other areas, which may differ significantly in volume and pricing [P03]. Additionally, Solara reduced the average installed price of its home battery from 8,000 credits in 2024 to 7,600 credits in 2025, reflecting a decrease of 400 credits [P04]. These prices are defined as the total cost for installation and do not include maintenance costs, which may affect the total expenditure for consumers [P04]. \n\nThe increase in sales and the reduction in price occurred within the same timeframe, but the data does not provide insights into the reasons behind these changes [P03][P04]. Furthermore, the pricing data lacks information on any additional costs that consumers might incur, such as installation or maintenance, which could influence the overall affordability of the product [P04]. The absence of broader market data or competitor performance limits the ability to assess the overall market dynamics for home batteries [P03][P04]. \n\nOverall, the limitations in the data restrict a comprehensive analysis of the home battery market as a whole, as the figures do not include broader market trends or competitor performance, which may provide a more complete picture of the market dynamics [P03][P04].\nFOOTNOTES:\n[P03] Solara sold 4,000 home battery units in Northstar in 2025, compared with 3,000 in 2024. Its sales count does not represent the entire market.\n[P04] Solara reduced the average installed price of its home battery from 8,000 credits in 2024 to 7,600 credits in 2025. These prices exclude maintenance."
+    },
+    {
+      "role": "assistant",
+      "name": "reviewer",
+      "content": "reviewer A: revise | The memo contains causal language suggesting that the increase in sales and reduction in price occurred within the same timeframe, but it does not provide evidence or citations to support the reasons behind these changes. This goes beyond what the cited figures can support."
+    },
+    {
+      "role": "assistant",
+      "name": "reviewer",
+      "content": "VERDICT on draft v3: revise | The memo contains causal language suggesting that the increase in sales and reduction in price occurred within the same timeframe, but it does not provide evidence or citations to support the reasons behind these changes. This goes beyond what the cited figures can support."
+    }
+  ],
+  "compactions": [
+    {
+      "turn": 7,
+      "tokens_before": 10006,
+      "tokens_after": 1926,
+      "messages_before": 39,
+      "messages_after": 5,
+      "summarised_messages": 35,
+      "counter": "tiktoken:o200k_base",
+      "summary_sha": "1846250cd206"
+    }
+  ],
+  "trace": [
+    "supervisor",
+    "researcher",
+    "supervisor",
+    "writer",
+    "supervisor",
+    "reviewer",
+    "supervisor",
+    "writer",
+    "supervisor",
+    "reviewer",
+    "supervisor",
+    "writer",
+    "supervisor",
+    "reviewer",
+    "supervisor"
+  ],
+  "tokens": {
+    "supervisor": {
+      "prompt_tokens": 29147,
+      "completion_tokens": 238,
+      "total_tokens": 29385
+    },
+    "researcher": {
+      "prompt_tokens": 1482,
+      "completion_tokens": 116,
+      "total_tokens": 1598
+    },
+    "writer": {
+      "prompt_tokens": 9934,
+      "completion_tokens": 2892,
+      "total_tokens": 12826
+    },
+    "reviewer": {
+      "prompt_tokens": 2620,
+      "completion_tokens": 212,
+      "total_tokens": 2832
+    },
+    "memory": {
+      "prompt_tokens": 5423,
+      "completion_tokens": 85,
+      "total_tokens": 5508
+    }
+  },
+  "mcp_calls": 3,
+  "stop_reason": "3 reviewer rejections",
+  "dual_review": false,
+  "reviewer_votes": [
+    {
+      "draft_version": 1,
+      "votes": [
+        {
+          "reviewer": "A",
+          "temperature": 0.0,
+          "decision": "revise",
+          "reasons": [
+            "Body is 237 words; rubric requires 250-350.",
+            "The memo contains causal language suggesting that the sales increase and price reduction occurred simultaneously, but it does not provide evidence or citations to support any causal relationship between these two trends. This goes beyond what the cited figures can support."
+          ]
+        }
+      ]
+    },
+    {
+      "draft_version": 2,
+      "votes": [
+        {
+          "reviewer": "A",
+          "temperature": 0.0,
+          "decision": "revise",
+          "reasons": [
+            "Body is 240 words; rubric requires 250-350.",
+            "The memo contains causal language suggesting that the sales increase occurred alongside a price reduction, which implies a relationship not supported by the cited data. This could mislead readers about the nature of the relationship between sales and pricing.",
+            "The memo states that the data does not provide insights into the reasons behind changes in sales and pricing, which is acceptable; however, it also implies a comparison to competitors without supporting evidence from the corpus, which is not allowed."
+          ]
+        }
+      ]
+    },
+    {
+      "draft_version": 3,
+      "votes": [
+        {
+          "reviewer": "A",
+          "temperature": 0.0,
+          "decision": "revise",
+          "reasons": [
+            "The memo contains causal language suggesting that the increase in sales and reduction in price occurred within the same timeframe, but it does not provide evidence or citations to support the reasons behind these changes. This goes beyond what the cited figures can support."
+          ]
+        }
+      ]
+    }
+  ]
+}

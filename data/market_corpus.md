@@ -1,0 +1,27 @@
+# Fictional market research corpus
+
+All companies, figures and events below are invented for this assignment. Each paragraph has a stable source ID.
+
+[P01] In 2025, the fictional Northstar region installed 120 megawatts of rooftop solar, up from 100 megawatts in 2024. Installations are measured as new capacity, not electricity generated.
+
+[P02] Northstar's residential rooftop solar installations increased from 40 to 55 megawatts between 2024 and 2025. Commercial installations increased from 60 to 65 megawatts over the same period.
+
+[P03] The fictional firm Solara sold 4,000 home battery units in Northstar in 2025, compared with 3,000 in 2024. Its sales count does not represent the entire market.
+
+[P04] Solara reduced the average installed price of its home battery from 8,000 credits in 2024 to 7,600 credits in 2025. These prices exclude maintenance.
+
+[P05] The fictional delivery company SwiftCart completed 1 million deliveries in 2025, up from 800,000 in 2024. Its on-time delivery rate rose from 90% to 92%.
+
+[P06] SwiftCart's average cost per delivery rose from 5.00 credits in 2024 to 5.40 credits in 2025. Higher fuel and labour costs were cited in its fictional annual report.
+
+[P07] In the fictional Northstar online grocery survey, 600 of 1,000 respondents bought groceries online in 2025, compared with 520 of 1,000 in 2024. The survey reports respondents, not transaction volumes.
+
+[P08] The same 2025 online grocery survey found that 360 of 600 online buyers valued delivery reliability most. The survey did not ask respondents to rank every purchasing factor.
+
+[P09] The fictional healthcare provider CareBridge conducted 24,000 remote consultations in 2025, up from 20,000 in 2024. Remote consultations represented 30% of its total consultations in 2025.
+
+[P10] CareBridge's fictional patient survey recorded 80% satisfaction for remote consultations in 2025, compared with 78% in 2024. The surveys used different respondents each year.
+
+[P11] Northstar's fictional public transport operator added 50 electric buses in 2025, bringing its electric fleet to 150 buses. Its total fleet consisted of 600 buses at year end.
+
+[P12] The operator reported average electricity costs of 0.80 credits per kilometre for electric buses in 2025, versus fuel costs of 1.10 credits per kilometre for diesel buses. These figures exclude vehicle purchase and maintenance costs.

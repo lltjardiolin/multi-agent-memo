@@ -1,0 +1,111 @@
+{
+  "server": "Week 18 fictional market corpus",
+  "protocol": "2025-11-25",
+  "resources": [
+    {
+      "uri": "corpus://market/corpus.csv",
+      "name": "corpus.csv",
+      "mimeType": "text/csv"
+    },
+    {
+      "uri": "corpus://market/glossary.md",
+      "name": "glossary.md",
+      "mimeType": "text/markdown"
+    }
+  ],
+  "tools": [
+    "search_corpus"
+  ],
+  "input_schema": {
+    "properties": {
+      "query": {
+        "description": "Keywords or a question",
+        "maxLength": 200,
+        "minLength": 2,
+        "title": "Query",
+        "type": "string"
+      },
+      "limit": {
+        "default": 5,
+        "description": "Maximum hits to return",
+        "maximum": 12,
+        "minimum": 1,
+        "title": "Limit",
+        "type": "integer"
+      }
+    },
+    "required": [
+      "query"
+    ],
+    "title": "search_corpusArguments",
+    "type": "object"
+  },
+  "output_schema": {
+    "$defs": {
+      "SnippetHit": {
+        "properties": {
+          "text": {
+            "description": "Verbatim corpus paragraph",
+            "title": "Text",
+            "type": "string"
+          },
+          "source": {
+            "description": "Stable citation ID, e.g. P01",
+            "pattern": "^P\\d{2}$",
+            "title": "Source",
+            "type": "string"
+          },
+          "score": {
+            "description": "Relevance score (higher is better)",
+            "minimum": 0,
+            "title": "Score",
+            "type": "number"
+          }
+        },
+        "required": [
+          "text",
+          "source",
+          "score"
+        ],
+        "title": "SnippetHit",
+        "type": "object"
+      }
+    },
+    "properties": {
+      "snippets": {
+        "description": "Ranked hits, best first",
+        "items": {
+          "$ref": "#/$defs/SnippetHit"
+        },
+        "title": "Snippets",
+        "type": "array"
+      }
+    },
+    "required": [
+      "snippets"
+    ],
+    "title": "SearchResult",
+    "type": "object"
+  },
+  "sample_call": {
+    "args": {
+      "query": "solar",
+      "limit": 3
+    },
+    "structuredContent": {
+      "snippets": [
+        {
+          "text": "In 2025, the fictional Northstar region installed 120 megawatts of rooftop solar, up from 100 megawatts in 2024. Installations are measured as new capacity, not electricity generated.",
+          "source": "P01",
+          "score": 2.466
+        },
+        {
+          "text": "Northstar's residential rooftop solar installations increased from 40 to 55 megawatts between 2024 and 2025. Commercial installations increased from 60 to 65 megawatts over the same period.",
+          "source": "P02",
+          "score": 2.466
+        }
+      ]
+    }
+  },
+  "invalid_input_rejected": true
+}

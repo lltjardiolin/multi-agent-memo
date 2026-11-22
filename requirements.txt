@@ -1,0 +1,9 @@
+# Week 18 multi-agent memo generator (tested with Python 3.10 and 3.13)
+mcp>=1.10,<2            # official MCP Python SDK (FastMCP server + stdio client, structured tool output)
+langgraph>=0.6,<2       # StateGraph + Command handoffs (tested 1.2)
+openai>=1.68,<3         # OpenAI-compatible client, same endpoint as baseline.py
+pydantic>=2.7,<3        # typed role outputs
+jsonschema>=4.20        # MCP schema validation on the client
+tiktoken>=0.7           # token counting for the 8,000-token memory budget
+reportlab>=4.0          # report PDF
+pytest>=8               # offline tests

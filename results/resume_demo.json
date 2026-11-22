@@ -1,0 +1,57 @@
+{
+  "run_id": "T03-resume-demo-153844",
+  "topic_id": "T03",
+  "killed_at_turn": 2,
+  "state_at_kill": {
+    "status": "running",
+    "turn_count": 2,
+    "pending_node": "writer",
+    "last_event": "research_done",
+    "trace": [
+      "supervisor",
+      "researcher",
+      "supervisor"
+    ],
+    "decisions": [
+      "turn 1: hand_off_to_researcher",
+      "turn 2: hand_off_to_writer"
+    ]
+  },
+  "resume_exit_code": 0,
+  "resume_seconds": 40.6,
+  "final": {
+    "status": "escalated_to_human",
+    "turn_count": 8,
+    "rejections": 3,
+    "trace": [
+      "supervisor",
+      "researcher",
+      "supervisor",
+      "writer",
+      "supervisor",
+      "reviewer",
+      "supervisor",
+      "writer",
+      "supervisor",
+      "reviewer",
+      "supervisor",
+      "writer",
+      "supervisor",
+      "reviewer",
+      "supervisor"
+    ],
+    "decisions": [
+      "turn 1: hand_off_to_researcher",
+      "turn 2: hand_off_to_writer",
+      "turn 3: hand_off_to_reviewer",
+      "turn 4: hand_off_to_writer",
+      "turn 5: hand_off_to_reviewer",
+      "turn 6: hand_off_to_writer",
+      "turn 7: hand_off_to_reviewer",
+      "turn 8: STOP escalated_to_human (3 reviewer rejections)"
+    ],
+    "stop_reason": "3 reviewer rejections"
+  },
+  "scratchpad": "scratchpad/run-T03-resume-demo-153844.json",
+  "log": "logs/run-T03-resume-demo-153844.log"
+}
